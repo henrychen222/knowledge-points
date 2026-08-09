@@ -1,0 +1,119 @@
+
+(Study materials)
+https://www.tutorialspoint.com/java8/
+https://howtodoinjava.com/java-8-tutorial/
+https://www.baeldung.com/java-8-new-features
+
+
+(Lambda Expressions)
+https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm
+https://howtodoinjava.com/java8/lambda-expressions/
+
+(Method Reference)
+https://www.tutorialspoint.com/java8/java8_method_references.htm
+https://howtodoinjava.com/java8/lambda-method-references-example/
+using "::" symbol
+
+(Functional Interfaces) 
+https://www.tutorialspoint.com/java8/java8_functional_interfaces.htm
+https://howtodoinjava.com/java8/functional-interface-tutorial/
+Example: Predicate <T>
+https://howtodoinjava.com/java8/how-to-use-predicate-in-java-8/
+@FunctionalInterface
+
+(Default Methods)
+https://www.tutorialspoint.com/java8/java8_default_methods.htm
+https://howtodoinjava.com/java8/default-methods-in-java-8/
+
+(Stream)
+https://www.tutorialspoint.com/java8/java8_streams.htm
+https://howtodoinjava.com/java8/java-streams-by-examples/
+Stream: represents a sequence of objects from a source, which supports aggregate operations
+Characteristic: 
+      Sequence of elements
+      Source: 
+      Aggregate operations
+      Pipelining
+      Automatic iterations
+Generating Streams: 
+      stream()
+      parallelStream()
+forEach
+https://howtodoinjava.com/java8/foreach-method-example/
+map
+filter
+limited
+sorted
+Parallel Processing: parallelStream()
+Collectors
+Statistics
+
+(Boxed Stream)
+https://howtodoinjava.com/java8/java8-boxed-intstream/
+
+(Optional Class)
+https://www.tutorialspoint.com/java8/java8_optional_class.htm
+https://howtodoinjava.com/java8/java-8-optionals-complete-reference/
+Optional<T>
+
+(Nashorn JavaScript)
+https://www.tutorialspoint.com/java8/java8_nashorn_java_script.htm
+jjs, javax.script.ScriptEngineManager, javax.script.ScriptEngine
+
+(Date/Time API)
+https://www.tutorialspoint.com/java8/java8_datetime_api.htm
+https://howtodoinjava.com/java8/date-and-time-api-changes-in-java-8-lambda/
+java.time package
+Drawbacks: Not thread safe, Poor design, Difficult time zone handling
+(String to Data)
+https://howtodoinjava.com/java8/java-8-parse-string-to-date/
+
+
+(Base 64)
+https://www.tutorialspoint.com/java8/java8_base64.htm
+https://howtodoinjava.com/java8/base64-encoding-and-decoding-example-in-java-8/
+Base64.getEncoder()
+Base64.getDecoder()
+
+
+
+
+****** Extra **********
+(iterate Directory)
+https://howtodoinjava.com/java8/java-8-list-all-files-example/
+
+(Write to File)
+https://howtodoinjava.com/java8/java-8-write-to-file-example/
+
+(WatchService API)
+https://howtodoinjava.com/java8/java-8-watchservice-api-tutorial/
+
+(Join Array)----Join String Array
+https://howtodoinjava.com/java8/java-8-join-string-array-example/
+String.join()
+(Join String)--- String join (CSV)
+https://howtodoinjava.com/java8/java-8-string-join-csv-example/
+
+
+(Exact Arithmetic Operations)
+https://howtodoinjava.com/java8/java-8-exact-airthmetic-operations-supported-in-math-class/
+
+(Comparator with Lambda)
+https://howtodoinjava.com/java8/using-comparator-becomes-easier-with-lambda-expressions-java-8/
+
+
+(Regex as Predicate)
+https://howtodoinjava.com/java8/regex-predicate-using-pattern-compile/
+Pattern.compile().asPredicate()
+Pattern.compile().matcher()
+
+
+(Difference Between Dates)
+https://howtodoinjava.com/java/date-time/calculate-difference-between-two-dates-in-java/
+
+(Internal vs. External Iteration)
+https://howtodoinjava.com/java8/java-8-tutorial-internal-vs-external-iteration/
+
+
+(SecureRandom)
+https://howtodoinjava.com/java8/secure-random-number-generation/
