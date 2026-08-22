@@ -1,0 +1,26 @@
+Created 07/10/2019 8:34PM
+
+https://www.tutorialspoint.com/apache_kafka/index.htm
+
+https://kafka.apache.org/
+https://kafka.apache.org/documentation/
+
+
+(Spring Boot Messaging Kafka example)
+https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-kafka
+https://docs.spring.io/spring-kafka/reference/html/
+
+Producer/Consumer OR Sender/Receiver
+https://www.baeldung.com/spring-kafka
+https://codenotfound.com/spring-kafka-consumer-producer-example.html
+https://memorynotfound.com/spring-kafka-consume-producer-example/
+https://www.confluent.io/blog/apache-kafka-spring-boot-application/
+https://medium.com/oril/spring-boot-with-apache-kafka-2b1ecb88a63f
+https://thepracticaldeveloper.com/2018/11/24/spring-boot-kafka-config/
+
+Simple
+https://dev.to/thegroo/spring-kafka-producer-and-consumer-41oc
+https://www.javainuse.com/spring/spring-boot-apache-kafka-hello-world
+https://medium.com/@contactsunny/simple-apache-kafka-producer-and-consumer-using-spring-boot-41be672f4e2b
+https://dzone.com/articles/magic-of-kafka-with-spring-boot
+

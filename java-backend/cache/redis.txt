@@ -1,0 +1,13 @@
+Created 09/23/23   11:16PM
+
+https://www.tutorialspoint.com/redis/index.htm
+
+Spring Boot redis
+https://www.baeldung.com/spring-data-redis-tutorial
+https://www.baeldung.com/spring-boot-redis-cache
+https://spring.io/projects/spring-data-redis
+https://dzone.com/articles/intro-to-redis-with-spring-boot
+https://spring.io/guides/gs/messaging-redis/
+https://www.baeldung.com/spring-embedded-redis
+https://www.baeldung.com/spring-data-redis-properties
+https://developer.redis.com/develop/java/redis-and-spring-course/lesson_2

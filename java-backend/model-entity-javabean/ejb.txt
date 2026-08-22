@@ -1,0 +1,9 @@
+Created 07/16/2019
+
+https://www.tutorialspoint.com/ejb/index.htm
+
+https://docs.oracle.com/javaee/6/tutorial/doc/gijsz.html
+https://docs.oracle.com/javaee/7/tutorial/ejb-intro.htm
+https://docs.oracle.com/cd/E24329_01/web.1211/e24446/ejbs.htm#INTRO255
+
+https://docs.spring.io/spring/docs/1.2.x/reference/ejb.html

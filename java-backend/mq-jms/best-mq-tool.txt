@@ -1,0 +1,4 @@
+Created 07/10/2019
+
+https://dingyuliang.me/mq-best-10-message-queue-open-source-libraries/
+https://stackshare.io/message-queue

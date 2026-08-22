@@ -1,0 +1,5 @@
+Created 09/28/2019
+
+https://www.tutorialspoint.com/jackson_annotations/index.htm
+https://github.com/FasterXML/jackson-docs/wiki/JacksonAnnotations
+http://tutorials.jenkov.com/java-json/jackson-annotations.html

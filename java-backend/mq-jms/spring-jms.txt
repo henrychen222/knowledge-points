@@ -1,0 +1,7 @@
+Created 07/10/2019
+
+https://docs.spring.io/spring/docs/current/spring-framework-reference/integration.html#jms
+https://spring.io/guides/gs/messaging-jms/
+
+Send a message
+Receive a message

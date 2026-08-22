@@ -1,0 +1,17 @@
+Created 01/26/20
+
+https://activemq.apache.org/
+
+(ActiveMQ 5 "Classic")
+https://activemq.apache.org/components/classic/
+https://activemq.apache.org/components/classic/documentation
+
+(ActiveMQ Artemis)
+https://activemq.apache.org/components/artemis/
+https://activemq.apache.org/components/artemis/documentation/
+https://activemq.apache.org/components/artemis/documentation/latest/
+ 
+------- 08/09/26
+(Spring Boot ActiveMQ)
+https://www.baeldung.com/spring-remoting-jms
+https://docs.spring.io/spring-boot/reference/messaging/jms.html

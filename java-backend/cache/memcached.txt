@@ -1,0 +1,4 @@
+Created 09/23/23  11:25PM
+
+https://www.tutorialspoint.com/memcached/index.htm
+https://www.baeldung.com/memcached-vs-redis

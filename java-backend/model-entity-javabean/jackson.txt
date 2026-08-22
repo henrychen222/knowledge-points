@@ -1,0 +1,4 @@
+Created 09/28/2019
+
+https://www.tutorialspoint.com/jackson/index.htm
+https://github.com/FasterXML/jackson-docs
