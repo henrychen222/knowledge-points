@@ -1,0 +1,8 @@
+Created 07/09/19
+
+https://spring.io/projects/spring-ws
+https://www.tutorialspoint.com/springws/
+https://www.baeldung.com/spring-boot-soap-web-service
+
+WSDL (Web Service Description Languages)
+.wsdl.  .xsd

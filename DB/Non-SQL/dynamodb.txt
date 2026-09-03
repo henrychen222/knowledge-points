@@ -1,0 +1,3 @@
+Created 07/09/19
+
+https://www.tutorialspoint.com/dynamodb/dynamodb_load_table.htm

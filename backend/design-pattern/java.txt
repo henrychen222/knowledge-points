@@ -1,0 +1,143 @@
+--------  Created 02/12/21 evening
+https://howtodoinjava.com/gang-of-four-java-design-patterns/
+https://www.tutorialspoint.com/design_pattern/index.htm
+https://refactoring.guru/design-patterns/java
+
+************************* Creational Pattern ********************
+(Singleton Patterns)
+https://howtodoinjava.com/design-patterns/creational/singleton-design-pattern-in-java/
+https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
+https://en.wikipedia.org/wiki/Singleton_pattern
+
+(Builder Patterns)
+https://howtodoinjava.com/design-patterns/creational/builder-pattern-in-java/
+https://www.tutorialspoint.com/design_pattern/builder_pattern.htm
+https://en.wikipedia.org/wiki/Builder_pattern
+
+(Factory Patterns)
+https://howtodoinjava.com/design-patterns/creational/implementing-factory-design-pattern-in-java/
+https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
+https://en.wikipedia.org/wiki/Factory_method_pattern
+
+(Abstract Factory Patterns)
+https://howtodoinjava.com/design-patterns/creational/abstract-factory-pattern-in-java/
+https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
+https://howtodoinjava.com/design-patterns/creational/abstract-factory-pattern-in-java/
+https://www.baeldung.com/java-abstract-factory-pattern
+https://en.wikipedia.org/wiki/Abstract_factory_pattern
+
+(Prototype Patterns)
+https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
+https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm
+https://en.wikipedia.org/wiki/Prototype_pattern
+https://www.baeldung.com/java-pattern-prototype
+
+
+
+
+************************* Behavioral Pattern ********************
+(Chain of Responsibility Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/chain-of-responsibility-design-pattern/
+https://www.tutorialspoint.com/design_pattern/chain_of_responsibility_pattern.htm
+https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern
+https://www.baeldung.com/chain-of-responsibility-pattern
+
+(Command Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/command-pattern/
+https://www.tutorialspoint.com/design_pattern/command_pattern.htm
+https://en.wikipedia.org/wiki/Command_pattern
+https://www.baeldung.com/java-command-pattern
+
+(Iterator Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/iterator-design-pattern/
+https://www.tutorialspoint.com/design_pattern/iterator_pattern.htm
+https://en.wikipedia.org/wiki/Iterator_pattern
+
+(Mediator Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/mediator-pattern/
+https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm
+https://en.wikipedia.org/wiki/Mediator_pattern
+https://www.baeldung.com/java-mediator-pattern
+
+(Memento Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/memento-design-pattern/
+https://www.tutorialspoint.com/design_pattern/memento_pattern.htm
+https://en.wikipedia.org/wiki/Memento_pattern
+https://www.baeldung.com/java-memento-design-pattern
+
+(Observer Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/
+https://www.tutorialspoint.com/design_pattern/observer_pattern.htm
+https://en.wikipedia.org/wiki/Observer_pattern
+https://www.baeldung.com/java-observer-pattern
+
+(State Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/
+https://www.tutorialspoint.com/design_pattern/state_pattern.htm
+https://en.wikipedia.org/wiki/State_pattern
+https://www.baeldung.com/java-state-design-pattern
+
+(Strategy/Policy Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/strategy-design-pattern/
+https://en.wikipedia.org/wiki/Strategy_pattern
+https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
+https://www.baeldung.com/java-strategy-pattern
+
+(Template Method Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/
+https://www.tutorialspoint.com/design_pattern/template_pattern.htm
+https://en.wikipedia.org/wiki/Template_method_pattern
+
+(Visitor Patterns)
+https://howtodoinjava.com/design-patterns/behavioral/visitor-design-pattern-example-tutorial/
+https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm
+https://www.baeldung.com/java-visitor-pattern
+https://en.wikipedia.org/wiki/Visitor_pattern
+
+(Interpreter Patterns)
+https://www.tutorialspoint.com/design_pattern/interpreter_pattern.htm
+https://www.baeldung.com/java-interpreter-pattern
+https://en.wikipedia.org/wiki/Interpreter_pattern
+
+
+************************* Structural Pattern********************
+(Adapter Patterns)
+https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/
+https://en.wikipedia.org/wiki/Adapter_pattern
+https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
+https://www.baeldung.com/java-adapter-pattern
+
+(Bridge Patterns)
+https://howtodoinjava.com/design-patterns/structural/bridge-design-pattern/
+https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
+https://en.wikipedia.org/wiki/Bridge_pattern
+https://www.baeldung.com/java-bridge-pattern
+
+(Composite Patterns)
+https://howtodoinjava.com/design-patterns/structural/composite-design-pattern/
+https://www.tutorialspoint.com/design_pattern/composite_pattern.htm
+https://en.wikipedia.org/wiki/Composite_pattern
+https://www.baeldung.com/java-composite-pattern
+
+(Decorator Patterns)
+https://howtodoinjava.com/design-patterns/structural/decorator-design-pattern/
+https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
+https://en.wikipedia.org/wiki/Decorator_pattern
+https://www.baeldung.com/java-decorator-pattern
+
+(Facade Patterns)
+https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
+https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
+https://en.wikipedia.org/wiki/Facade_pattern
+https://www.baeldung.com/java-facade-pattern
+
+(Flyweight Patterns)
+https://howtodoinjava.com/design-patterns/structural/flyweight-design-pattern/
+https://en.wikipedia.org/wiki/Flyweight_pattern
+https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm
+https://www.baeldung.com/java-flyweight
+
+(Proxy Patterns)
+https://en.wikipedia.org/wiki/Proxy_pattern
+https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
+https://www.baeldung.com/java-proxy-pattern

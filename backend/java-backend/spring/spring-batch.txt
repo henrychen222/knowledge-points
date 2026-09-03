@@ -1,0 +1,82 @@
+Created 10/15/2019
+
+
+https://www.tutorialspoint.com/spring_batch/index.htm
+https://howtodoinjava.com/spring-batch/
+
+Spring Batch 4
+https://docs.spring.io/spring-batch/docs/4.0.x/reference/html/
+https://docs.spring.io/spring-batch/4.0.x/reference/html/index-single.html
+
+Spring Batch 5
+https://docs.spring.io/spring-batch/docs/5.0.x/reference/html/
+https://docs.spring.io/spring-batch/docs/5.0.x/reference/html/index-single.html
+
+(Overview)
+https://www.tutorialspoint.com/spring_batch/spring_batch_overview.htm
+
+(Architecture)
+https://www.tutorialspoint.com/spring_batch/spring_batch_architecture.htm
+
+(Application)
+https://www.tutorialspoint.com/spring_batch/spring_batch_application.htm
+
+(Configuration)
+https://www.tutorialspoint.com/spring_batch/spring_batch_configuration.htm
+
+(Readers, Writers & Processors)
+https://www.tutorialspoint.com/spring_batch/spring_batch_readers_writers_processors.htm
+
+(Basic Application). --- try
+https://www.tutorialspoint.com/spring_batch/spring_batch_basic_application.htm
+
+(XML to MySQL)
+https://www.tutorialspoint.com/spring_batch/spring_batch_xml_to_mysql.htm
+
+(CSV to XML)
+https://www.tutorialspoint.com/spring_batch/spring_batch_csv_to_xml.htm
+
+(MySQL to XML)
+https://www.tutorialspoint.com/spring_batch/spring_batch_mysql_to_xml.htm
+
+(MySQL to Flat File)
+https://www.tutorialspoint.com/spring_batch/spring_batch_mysql_to_flat_file.htm
+
+
+
+(Event Listeners)
+https://howtodoinjava.com/spring-batch/spring-batch-event-listeners/
+
+(ItemProcessor)
+https://howtodoinjava.com/spring-batch/spring-batch-itemprocessor-example/
+https://docs.spring.io/spring-batch/4.0.x/reference/html/index-single.html#itemProcessor
+
+(job scheduling)
+https://howtodoinjava.com/spring-batch/job-scheduler-example/
+
+(Quartz)
+https://howtodoinjava.com/spring-batch/batch-quartz-java-config-example/
+
+(Jdbcjobstore)
+https://howtodoinjava.com/spring-batch/quartz-h2-jdbcjobstore-example/
+
+(DI in Quartz Job)
+https://howtodoinjava.com/spring-batch/spring-beans-in-quartz-job/
+
+(FlatFileItemReader)
+https://howtodoinjava.com/spring-batch/flatfileitemreader-read-csv-example/
+
+(FlatFileItemWriter)
+https://howtodoinjava.com/spring-batch/flatfileitemwriter-write-to-csv-file/
+
+(MultiResourceItemReader)
+https://howtodoinjava.com/spring-batch/multiresourceitemreader-read-multiple-csv-files-example/
+
+(Delete Files)
+https://howtodoinjava.com/spring-batch/delete-archive-files-after-read/
+
+(Records Counting)
+https://howtodoinjava.com/spring-batch/records-count-example/
+
+(CSV to Database)
+https://howtodoinjava.com/spring-batch/csv-to-database-java-config-example/

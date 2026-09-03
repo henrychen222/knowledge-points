@@ -1,0 +1,38 @@
+Created 08/19/19
+
+(how to use wildfly with intellij)
+https://docs.wildfly.org/17/Getting_Started_Guide.html
+https://www.jetbrains.com/help/idea/deploying-a-web-app-into-wildfly-container.html
+
+
+************************** official documentation ********************
+https://docs.wildfly.org/
+https://docs.wildfly.org/17/
+
+(WildFly Model Reference)
+http://wildscribe.github.io/
+http://wildscribe.github.io/JBoss%20EAP/7.2/index.html    (JBoss EAP)
+http://wildscribe.github.io/WildFly/17.0/index.html
+(Administrator Guides)
+https://docs.wildfly.org/17/Getting_Started_Guide.html  (Getting Started Guide)
+https://docs.wildfly.org/17/Admin_Guide.html   (WildFly Admin Guide)
+https://docs.wildfly.org/17/High_Availability_Guide.html  (High Availability Guide)
+(Developer Guides)
+https://docs.wildfly.org/17/Getting_Started_Developing_Applications_Guide.html
+https://docs.wildfly.org/17/Developer_Guide.html  (Developer Guide)
+https://docs.wildfly.org/17/JavaEE_Tutorial.html   (JavaEE 7 Tutorial)
+https://docs.wildfly.org/17/Extending_WildFly.html  (Extending WildFly)
+https://docs.wildfly.org/17/Testsuite.html   (WildFly Testsuite)
+(Security Guide)
+https://docs.wildfly.org/17/WildFly_Elytron_Security.html  (WildFly Elytron Security)
+(Client Guide)
+https://docs.wildfly.org/17/Client_Guide.html  (WildFly Client Configuration)
+(Quickstarts)
+https://github.com/jboss-developer/jboss-developer-shared-resources/blob/master/guides/CONTRIBUTING.md#contribute-a-quickstart
+
+
+(Galleon Documentation)
+https://docs.wildfly.org/galleon/
+
+(WildFly Galleon Plugins Documentation)
+https://docs.wildfly.org/galleon-plugins/

@@ -1,0 +1,6 @@
+Created 09/25/19
+
+https://www.baeldung.com/java-servers (best)
+https://www.quora.com/Which-is-the-best-Java-application-server
+https://stackify.com/tomcat-vs-jetty-vs-glassfish-vs-wildfly/
+https://plumbr.io/blog/java/most-popular-java-application-servers-2017-edition

@@ -1,0 +1,118 @@
+Created 03/27/20
+
+
+(Installation)
+https://www.tutorialspoint.com/laravel/laravel_installation.htm
+
+(Application Structure)
+https://www.tutorialspoint.com/laravel/laravel_application_structure.htm
+
+(Configuration)
+https://www.tutorialspoint.com/laravel/laravel_configuration.htm
+
+(Routing)
+https://www.tutorialspoint.com/laravel/laravel_routing.htm
+
+(Middleware)
+https://www.tutorialspoint.com/laravel/laravel_middleware.htm
+
+(Namespaces)
+https://www.tutorialspoint.com/laravel/laravel_namespaces.htm
+
+(Controllers)
+https://www.tutorialspoint.com/laravel/laravel_controllers.htm
+
+(Request)
+https://www.tutorialspoint.com/laravel/laravel_request.htm
+
+(Cookie)
+https://www.tutorialspoint.com/laravel/laravel_cookie.htm
+
+(Response)
+https://www.tutorialspoint.com/laravel/laravel_response.htm
+
+(Views)
+https://www.tutorialspoint.com/laravel/laravel_views.htm
+
+(Blade Templates)
+https://www.tutorialspoint.com/laravel/laravel_blade_templates.htm
+
+(Redirections)
+https://www.tutorialspoint.com/laravel/laravel_redirections.htm
+
+(Working With Database)
+https://www.tutorialspoint.com/laravel/laravel_working_with_database.htm
+     https://www.tutorialspoint.com/laravel/insert_records.htm
+     https://www.tutorialspoint.com/laravel/retrieve_records.htm
+     https://www.tutorialspoint.com/laravel/update_records.htm
+     https://www.tutorialspoint.com/laravel/delete_records.htm
+
+(Error and Logging)
+https://www.tutorialspoint.com/laravel/laravel_errors_and_logging.htm
+
+(Forms)
+https://www.tutorialspoint.com/laravel/laravel_forms.htm
+
+(Localization)
+https://www.tutorialspoint.com/laravel/laravel_localization.htm
+
+(Session)
+https://www.tutorialspoint.com/laravel/laravel_session.htm
+
+(Validation)
+https://www.tutorialspoint.com/laravel/laravel_validation.htm
+
+(File Uploading)
+https://www.tutorialspoint.com/laravel/laravel_file_uploading.htm
+
+(Sending Email)
+https://www.tutorialspoint.com/laravel/laravel_sending_email.htm
+
+(Ajax)
+https://www.tutorialspoint.com/laravel/laravel_ajax.htm
+(Error Handling)
+https://www.tutorialspoint.com/laravel/laravel_error_handling.htm
+
+(Event Handling)
+https://www.tutorialspoint.com/laravel/laravel_event_handling.htm
+
+(Facades)
+https://www.tutorialspoint.com/laravel/laravel_facades.htm
+
+(Contracts)
+https://www.tutorialspoint.com/laravel/laravel_contracts.htm
+
+(CSRF Protection)
+https://www.tutorialspoint.com/laravel/laravel_csrf_protection.htm
+
+(Authentication)
+https://www.tutorialspoint.com/laravel/laravel_authentication.htm
+(Authorization)
+https://www.tutorialspoint.com/laravel/laravel_authorization.htm
+
+(Artisan Console)
+https://www.tutorialspoint.com/laravel/laravel_artisan_console.htm
+
+(Encryption)
+https://www.tutorialspoint.com/laravel/laravel_encryption.htm
+
+(Hashing)
+https://www.tutorialspoint.com/laravel/laravel_hashing.htm
+
+(Understanding Release Process)
+https://www.tutorialspoint.com/laravel/laravel_understanding_release_process.htm
+
+(Guest User Gates)
+https://www.tutorialspoint.com/laravel/laravel_guest_user_gates.htm
+
+(Artisan Commands)
+https://www.tutorialspoint.com/laravel/laravel_artisan_commands.htm
+
+(Pagination Customizations)
+https://www.tutorialspoint.com/laravel/laravel_pagination_customizations.htm
+
+(Dump Server)
+https://www.tutorialspoint.com/laravel/laravel_dump_server.htm
+
+(Action URL)
+https://www.tutorialspoint.com/laravel/laravel_action_url.htm

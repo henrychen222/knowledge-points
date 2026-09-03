@@ -1,0 +1,84 @@
+Created 05/29/2019
+
+https://www.tutorialspoint.com/springaop/index.htm
+https://www.baeldung.com/spring-aop
+https://docs.spring.io/spring-framework/reference/core/aop.html (current)
+https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html
+
+
+https://www.journaldev.com/2583/spring-aop-example-tutorial-aspect-advice-pointcut-joinpoint-annotations
+https://www.edureka.co/blog/spring-aop-tutorial/
+
+
+
+------ Practice HowtoDoinJava first ----
+(Core Concepts)
+https://www.tutorialspoint.com/springaop/springaop_core_concepts.htm
+
+(Advice Types)
+https://www.tutorialspoint.com/springaop/springaop_advice_types.htm
+
+******************** XML Configuration *********
+(PointCut Methods)
+https://www.tutorialspoint.com/springaop/springaop_pointcut_methods.htm
+
+(Before Advice)   
+https://www.tutorialspoint.com/springaop/springaop_before_aspect1.htm
+https://howtodoinjava.com/spring-aop/aspectj-before-advice-example/
+
+(After Advice)      
+https://www.tutorialspoint.com/springaop/springaop_after_advice.htm
+https://howtodoinjava.com/spring-aop/aspectj-after-advice-example/
+
+(After Returning Advice)   
+https://www.tutorialspoint.com/springaop/springaop_after_returning.htm
+https://howtodoinjava.com/spring-aop/aspectj-after-returning-advice-example/
+
+(After Throwing Advice)   
+https://www.tutorialspoint.com/springaop/springaop_after_throwing.htm
+https://howtodoinjava.com/spring-aop/aspectj-after-throwing-advice-example/
+
+(Around Advice)
+https://www.tutorialspoint.com/springaop/springaop_around_aspect.htm
+https://howtodoinjava.com/spring-aop/aspectj-around-annotation-example/
+
+
+*************** Annotation ************
+@PointCut
+https://www.tutorialspoint.com/springaop/springaop_pointcut_methods1.htm
+
+@Before 
+https://howtodoinjava.com/spring-aop/aspectj-before-annotation-example/
+https://www.tutorialspoint.com/springaop/springaop_before_aspect1.htm
+
+@After
+https://howtodoinjava.com/spring-aop/aspectj-after-annotation-example/
+https://www.tutorialspoint.com/springaop/springaop_after_advice1.htm
+
+@AfterReturning
+https://howtodoinjava.com/spring-aop/aspectj-after-returning-annotation-example/
+https://www.tutorialspoint.com/springaop/springaop_after_returning1.htm
+
+@AfterThrowing
+https://howtodoinjava.com/spring-aop/aspectj-afterthrowing-annotation-example/
+https://www.tutorialspoint.com/springaop/springaop_after_throwing1.htm
+
+@Around
+https://www.tutorialspoint.com/springaop/springaop_around_aspect1.htm
+
+
+(Proxy)
+https://www.tutorialspoint.com/springaop/springaop_proxy.htm
+
+(Custom Annotation)
+https://www.tutorialspoint.com/springaop/springaop_custom_annotation.htm
+
+
+(Annotation Config)
+https://howtodoinjava.com/spring-aop/spring-aop-aspectj-example-tutorial-using-annotation-config/
+
+(XML Config)
+https://howtodoinjava.com/spring-aop/spring-aop-aspectj-xml-configuration-example/
+
+(Transaction)
+https://howtodoinjava.com/spring-transaction/spring-transactions-on-non-public-methods-with-load-time-weaving/

@@ -1,0 +1,34 @@
+Created 09/21/2021 morning
+
+https://redis.io/documentation
+    https://redis.io/commands/
+
+https://redis.io/clients#java
+https://redis.io/clients#nodejs
+
+(Spring Data Redis)
+https://www.baeldung.com/spring-data-redis-tutorial
+https://www.baeldung.com/spring-data-redis-properties
+https://docs.spring.io/spring-data/redis/reference/redis/template.html
+
+(redis分布式锁)
+https://segmentfault.com/a/1190000038330434
+https://zhuanlan.zhihu.com/p/42056183
+https://www.alibabacloud.com/blog/implementation-principles-and-best-practices-of-distributed-lock_600811
+https://docs.spring.io/spring-integration/reference/distributed-locks.html
+https://medium.com/@milon.istiyak/distributed-locking-with-redis-in-spring-boot-when-why-and-how-with-code-3d9384c0cbad
+
+
+
+
+https://www.youtube.com/watch?v=VBCOVtZ6T8U   (双十一秒杀系统后端Redis高并发架构实战 图灵学院)
+
+(setnx)
+https://redis.io/commands/setnx
+https://www.programcreek.com/java-api-examples/?class=redis.clients.jedis.Jedis&method=setnx
+
+
+(stringredistemplate example)
+https://docs.spring.io/spring-data/redis/docs/current/api/org/springframework/data/redis/core/StringRedisTemplate.html
+https://www.baeldung.com/spring-data-redis-tutorial
+https://medium.com/@hulunhao/how-to-use-redis-template-in-java-spring-boot-647a7eb8f8cc

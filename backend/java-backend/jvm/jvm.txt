@@ -1,0 +1,32 @@
+Created 07/16/2019
+
+https://www.tutorialspoint.com/java_virtual_machine/
+
+
+https://docs.oracle.com/javase/specs/
+(ava SE 7 Edition)
+https://docs.oracle.com/javase/specs/jvms/se7/html/  (same)
+https://docs.oracle.com/javase/specs/jvms/se7/html/index.html
+https://docs.oracle.com/javase/specs/jvms/se7/jvms7.pdf
+
+(Java SE 8 Edition)
+https://docs.oracle.com/javase/specs/jvms/se8/html/index.html
+https://docs.oracle.com/javase/specs/jvms/se8/jvms8.pdf
+
+
+
+(Class Loader)
+https://www.tutorialspoint.com/java_virtual_machine/java_virtual_machine_class_loader.htm
+
+(Runtime Data Areas)
+https://www.tutorialspoint.com/java_virtual_machine/java_virtual_machine_runtime_data_areas.htm
+
+(GIT Compiler)
+https://www.tutorialspoint.com/java_virtual_machine/java_virtual_machine_jit_compiler.htm
+
+
+(Garbage Collection)
+https://www.tutorialspoint.com/java_virtual_machine/java_virtual_machine_garbage_collection.htm
+
+(Memory Leak in Java)
+https://www.tutorialspoint.com/java_virtual_machine/java_virtual_machine_memory_leak.htm

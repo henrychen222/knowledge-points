@@ -1,0 +1,7 @@
+Created 09/25/19
+
+https://docs.oracle.com/middleware/1221/adf/index.html
+
+(12.2.1)
+https://docs.oracle.com/middleware/1221/wls/index.html
+https://docs.oracle.com/middleware/1221/wls/docs.htm

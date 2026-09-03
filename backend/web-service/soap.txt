@@ -1,0 +1,38 @@
+Created 07/06/19
+
+https://www.tutorialspoint.com/soap/
+http://w3schools.sinsixx.com/soap/default.asp.htm
+https://www.guru99.com/soap-simple-object-access-protocol.html
+
+
+https://www.w3schools.com/xml/xml_soap.asp
+
+(Overview).  What is SOAP? 
+https://www.javatpoint.com/soap-web-services
+https://www.w3schools.com/xml/xml_soap.asp
+https://www.tutorialspoint.com/soap/what_is_soap.htm
+Simple Object Access Protocol, XML-based protocol for accessing web services
+Advantages:
+WS Security:
+Language and Platform independent: 
+Disadvantages:
+Slow
+WSDL dependent
+
+
+(Message)
+https://www.tutorialspoint.com/soap/soap_message_structure.htm
+an ordinary XML document containing:
+       Envelop, Header, Body, Fault
+
+(Envelop)
+https://www.tutorialspoint.com/soap/soap_envelope.htm
+indicates the start and the end of the message, 
+         so that the receiver knows when an entire message has been received
+
+(Header) Optional
+https://www.tutorialspoint.com/soap/soap_header.htm
+offers a flexible framework for specifying additional application-level requirements
+       Example: 
+            specify a digital signature for password-protected services
+            specify an account number for pay-per-use SOAP services

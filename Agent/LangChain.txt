@@ -1,0 +1,47 @@
+Created 08/24/2026
+
+
+https://docs.langchain.com/oss/python/learn
+https://www.geeksforgeeks.org/data-science/langchain-tutorial/
+
+
+************************** Deep Agent **************************
+(RAG)
+https://docs.langchain.com/oss/python/deepagents/rag
+
+
+************************** LangChain **************************
+(Deep Agent)
+https://docs.langchain.com/oss/python/langchain/deep-agent-from-scratch
+
+(semantic search)
+https://docs.langchain.com/oss/python/langchain/knowledge-base
+
+(SQL Agent)
+https://docs.langchain.com/oss/python/langchain/sql-agent
+
+(Voice Agent)
+https://docs.langchain.com/oss/python/langchain/voice-agent
+
+
+************************** Multi-Agent **************************
+(Subagents: Personal Assistant)
+https://docs.langchain.com/oss/python/langchain/multi-agent/subagents-personal-assistant
+
+(Handoffs: Customer Support)
+https://docs.langchain.com/oss/python/langchain/multi-agent/handoffs-customer-support
+
+(Router: Knowledge Base)
+https://docs.langchain.com/oss/python/langchain/multi-agent/router-knowledge-base
+
+(skills: SQL Assistant)
+https://docs.langchain.com/oss/python/langchain/multi-agent/skills-sql-assistant
+
+
+
+************************** LangGraph *****************************
+(Custom RAG agent)
+https://docs.langchain.com/oss/python/langgraph/agentic-rag
+
+(Custom SQL agent)
+https://docs.langchain.com/oss/python/langgraph/sql-agent

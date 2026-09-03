@@ -1,0 +1,4 @@
+Created 02/09/20
+
+https://www.tutorialspoint.com/django/index.htm
+https://docs.djangoproject.com/en/3.0/

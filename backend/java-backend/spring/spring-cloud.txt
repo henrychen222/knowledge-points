@@ -1,0 +1,78 @@
+Created 09/29/2023
+
+*************************** Spring Cloud **************************
+(Monitor Microservice)
+https://howtodoinjava.com/spring-cloud/microservices-monitoring/
+ (Admin Server)
+https://www.tutorialspoint.com/spring_boot/spring_boot_admin_server.htm
+       <artifactId>spring-boot-admin-server</artifactId>
+       <artifactId>spring-boot-admin-server-ui</artifactId>
+(Admin Client)
+https://www.tutorialspoint.com/spring_boot/spring_boot_admin_client.htm
+        <artifactId>spring-boot-admin-starter-client</artifactId>
+
+(Microservices Virtualization)
+https://howtodoinjava.com/microservices/hoverfly-microservices-virtualization-tutorial/
+
+(ELK Stack) 
+https://howtodoinjava.com/microservices/elk-stack-tutorial-example/
+        Elastic Search, Logstash, Kibana
+
+
+(Cloud Configuration Server)
+https://www.tutorialspoint.com/spring_boot/spring_boot_cloud_configuration_server.htm
+https://howtodoinjava.com/spring-cloud/spring-cloud-config-server-git/
+     <artifactId>spring-boot-admin-server</artifactId>
+     @EnableConfigServer
+(Cloud Configuration Client)
+https://www.tutorialspoint.com/spring_boot/spring_boot_cloud_configuration_client.htm
+   <artifactId>spring-cloud-starter-config</artifactId>  
+
+
+(Netflix Eureka Server)    
+https://www.tutorialspoint.com/spring_boot/spring_boot_eureka_server.htm
+https://howtodoinjava.com/spring-cloud/spring-cloud-service-discovery-netflix-eureka/
+(Service Registration with Eureka)
+https://www.tutorialspoint.com/spring_boot/spring_boot_service_registration_with_eureka.htm
+       <artifactId>spring-cloud-starter-eureka-server</artifactId>
+       @EnableEurekaServer
+(Ribbon with eureka)
+https://howtodoinjava.com/spring-cloud/spring-boot-ribbon-eureka/
+       <artifactId>ribbon</artifactId>
+
+
+(Zuul API Gateway)
+https://howtodoinjava.com/spring-cloud/spring-cloud-api-gateway-zuul/
+(Zuul Proxy Server and Routing / Create Zuul Gateway Service Proxy)   
+https://www.tutorialspoint.com/spring_boot/spring_boot_zuul_proxy_server_and_routing.htm
+<artifactId>spring-cloud-starter-zuul</artifactId>
+@EnableZuulProxy
+
+
+(Zipkin and Sleuth)
+https://howtodoinjava.com/spring-cloud/spring-cloud-zipkin-sleuth-tutorial/
+(Tracing Micro Service Logs)   Spring Cloud Sleuth  ZipKin server
+https://www.tutorialspoint.com/spring_boot/spring_boot_tracing_micro_service_logs.htm
+           <artifactId>spring-cloud-starter-sleuth</artifactId>
+           <artifactId>zipkin-server</artifactId>
+           <artifactId>zipkin-autoconfigure-ui</artifactId>
+
+(Hystrix)
+https://www.tutorialspoint.com/spring_boot/spring_boot_hystrix.htm
+           <artifactId>spring-cloud-starter-hystrix</artifactId>
+(Hystrix Circuit Breaker Pattern)
+https://howtodoinjava.com/spring-cloud/spring-hystrix-circuit-breaker-tutorial/
+           <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+            @EnableCircuitBreaker
+            @EnableHystrixDashboard
+            @HystrixCommand(fallbackMethod = "myFallbackMethod")
+
+
+https://howtodoinjava.com/spring-cloud/consul-service-registration-discovery/
+
+(Cloud Foundry Platform)
+https://howtodoinjava.com/spring-cloud/pivotal-cloud-foundry-spring-boot-example/
+
+(Consul Service Registration and Discovery)
+https://howtodoinjava.com/spring-cloud/consul-service-registration-discovery/
+      @EnableDiscoveryClient

@@ -1,0 +1,4 @@
+Created 09/25/19
+
+https://www.ibm.com/support/knowledgecenter/en/SSEQTP_8.5.5/as_ditamaps/was855_welcome_base_dist_iseries.html
+http://www.redbooks.ibm.com/redbooks/pdfs/sg248056.pdf

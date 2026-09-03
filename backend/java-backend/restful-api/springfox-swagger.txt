@@ -1,0 +1,7 @@
+Created 04/15/2020
+
+https://springfox.github.io/springfox/
+http://springfox.github.io/springfox/docs/current/
+http://springfox.github.io/springfox/docs/snapshot/
+
+https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api

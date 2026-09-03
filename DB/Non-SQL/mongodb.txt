@@ -1,0 +1,68 @@
+Created 02/25/21
+
+https://www.tutorialspoint.com/mongodb/index.htm
+https://docs.mongodb.com/
+https://docs.mongodb.com/manual/
+
+
+(Insert Document)  ---- insert() insertOne()  insertMany()
+https://www.tutorialspoint.com/mongodb/mongodb_insert_document.htm
+
+(Query Document)  ---- find().pretty()   findOne()  $and $or $not $nor
+https://www.tutorialspoint.com/mongodb/mongodb_query_document.htm
+
+(Update Document) --- update()  save()  findOneAndUpdate()  updateOne()
+https://www.tutorialspoint.com/mongodb/mongodb_update_document.htm
+
+(Delete Document) --- remove()
+https://www.tutorialspoint.com/mongodb/mongodb_delete_document.htm
+
+(Projection)  --- find({}, {Key: })
+https://www.tutorialspoint.com/mongodb/mongodb_projection.htm
+
+(Limit Records)  ---- find().limit(Number)
+https://www.tutorialspoint.com/mongodb/mongodb_limit_record.htm
+
+(Sort Records) ---- sort()
+https://www.tutorialspoint.com/mongodb/mongodb_sort_record.htm
+
+(Indexing) --- createIndex()
+https://www.tutorialspoint.com/mongodb/mongodb_indexing.htm
+
+(aggregation) --- aggregate()       count(*) in sql
+https://www.tutorialspoint.com/mongodb/mongodb_aggregation.htm
+
+(Replication)
+https://www.tutorialspoint.com/mongodb/mongodb_replication.htm
+
+
+(Sharding)
+https://www.tutorialspoint.com/mongodb/mongodb_sharding.htm
+
+(Create Backup)
+https://www.tutorialspoint.com/mongodb/mongodb_create_backup.htm
+
+(deployment)
+https://www.tutorialspoint.com/mongodb/mongodb_deployment.htm
+
+(With Java PHP)
+https://www.tutorialspoint.com/mongodb/mongodb_java.htm
+https://www.tutorialspoint.com/mongodb/mongodb_php.htm
+
+
+
+************************* Advanced ********************
+(Relationships) 1:1 1:N  N:1  N:N
+https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm
+
+(Database References)
+https://www.tutorialspoint.com/mongodb/mongodb_database_references.htm
+
+(Covered Queries)
+https://www.tutorialspoint.com/mongodb/mongodb_covered_queries.htm
+
+(Analyzing Queries) --- explain() hint()
+https://www.tutorialspoint.com/mongodb/mongodb_analyzing_queries.htm
+
+(Atomic Operations)
+https://www.tutorialspoint.com/mongodb/mongodb_atomic_operations.htm

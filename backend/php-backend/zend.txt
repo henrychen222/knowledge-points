@@ -1,0 +1,123 @@
+Created 02/09/20
+
+
+
+https://www.tutorialspoint.com/zend_framework/index.htm
+
+https://framework.zend.com/learn
+https://framework.zend.com/manual/2.4/en/index.html  (Zend 2)   read
+
+https://framework.zend.com/manual/1.12/en/manual.html  (Zend 1)
+https://framework.zend.com/manual/1.12/en/reference.html  (Reference)
+https://framework.zend.com/manual/1.12/en/learning.html  (Learning)
+
+
+
+
+
+(Skeleton Application)
+https://www.tutorialspoint.com/zend_framework/zend_framework_skeleton_application.htm
+
+(MVC Architecture)
+https://www.tutorialspoint.com/zend_framework/zend_framework_mvc_architecture.htm
+
+(Concepts)
+https://www.tutorialspoint.com/zend_framework/zend_framework_concepts.htm
+
+(Service Manager)
+https://www.tutorialspoint.com/zend_framework/zend_framework_service_manager.htm
+https://framework.zend.com/manual/2.4/en/modules/zend.service-manager.html
+https://framework.zend.com/manual/2.2/en/modules/zend.service-manager.quick-start.html
+
+(Event Manager)
+https://www.tutorialspoint.com/zend_framework/zend_framework_event_manager.htm
+https://framework.zend.com/manual/2.4/en/modules/zend.event-manager.event-manager.html
+
+(Module System)
+https://www.tutorialspoint.com/zend_framework/zend_framework_module_system.htm
+https://framework.zend.com/manual/2.4/en/modules/zend.module-manager.intro.html
+
+(Application Structure)
+https://www.tutorialspoint.com/zend_framework/zend_framework_application_structure.htm
+https://framework.zend.com/manual/2.2/en/ref/project.structure.html
+https://framework.zend.com/manual/1.12/en/project-structure.project.html
+
+
+(Creating a Module)
+https://www.tutorialspoint.com/zend_framework/zend_framework_creating_module.htm
+https://framework.zend.com/manual/2.4/en/user-guide/modules.html
+
+(Controllers)
+https://www.tutorialspoint.com/zend_framework/zend_framework_controllers.htm
+https://framework.zend.com/manual/2.4/en/user-guide/routing-and-controllers.html
+
+(Routing)
+https://www.tutorialspoint.com/zend_framework/zend_framework_routing.htm
+https://framework.zend.com/manual/2.4/en/user-guide/routing-and-controllers.html
+https://framework.zend.com/manual/2.4/en/modules/zend.mvc.routing.html (zend mvc routing)
+
+(View Layer)
+https://www.tutorialspoint.com/zend_framework/zend_framework_view_layer.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-view
+    https://framework.zend.com/manual/2.3/en/modules/zend.view.quick-start.html
+
+(Layout)
+https://www.tutorialspoint.com/zend_framework/zend_framework_layout.htm
+https://framework.zend.com/manual/1.12/en/zend.layout.quickstart.html
+https://framework.zend.com/manual/1.12/en/learning.layout.usage.html
+https://framework.zend.com/manual/2.0/en/tutorials/quickstart.create.layout.html
+https://framework.zend.com/manual/1.12/en/zend.layout.options.html
+https://framework.zend.com/manual/1.12/en/zend.layout.advanced.html
+
+(Models & Database)
+https://www.tutorialspoint.com/zend_framework/zend_framework_models_and_database.htm
+https://framework.zend.com/manual/2.4/en/user-guide/database-and-models.html
+https://framework.zend.com/manual/1.12/en/learning.quickstart.create-model.html
+
+(Different Databases)
+https://www.tutorialspoint.com/zend_framework/zend_framework_different_databases.htm
+https://framework.zend.com/manual/2.4/en/in-depth-guide/preparing-db-backend.html
+
+(Forms & Validation)
+https://www.tutorialspoint.com/zend_framework/zend_framework_forms_and_validation.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-form
+     https://framework.zend.com/manual/2.4/en/modules/zend.form.quick-start.html
+https://framework.zend.com/manual/2.4/en/index.html#zend-validator
+
+(File Uploading)
+https://www.tutorialspoint.com/zend_framework/zend_framework_file_uploading.htm
+https://framework.zend.com/manual/2.4/en/modules/zend.form.file-upload.html
+
+(Ajax)
+https://www.tutorialspoint.com/zend_framework/zend_framework_ajax.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-json
+
+(Cookie Management)
+https://www.tutorialspoint.com/zend_framework/zend_framework_cookie_management.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-http
+https://framework.zend.com/manual/1.12/en/zend.http.cookies.html
+
+(Session Management)
+https://www.tutorialspoint.com/zend_framework/zend_framework_session_management.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-session
+
+(Authentication)
+https://www.tutorialspoint.com/zend_framework/zend_framework_authentication.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-authentication
+
+(Email Management)
+https://www.tutorialspoint.com/zend_framework/zend_framework_email_management.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-mail
+
+(Unit Testing)
+https://www.tutorialspoint.com/zend_framework/zend_framework_unit_testing.htm
+https://framework.zend.com/manual/2.4/en/index.html#zend-test
+     https://framework.zend.com/manual/2.4/en/modules/zend.test.phpunit.html
+
+(Error Handling)
+https://www.tutorialspoint.com/zend_framework/zend_framework_error_handling.htm
+https://framework.zend.com/manual/1.12/en/zend.controller.exceptions.html
+https://framework.zend.com/blog/2017-03-23-expressive-error-handling.html
+
+(Working Example) 
+https://www.tutorialspoint.com/zend_framework/zend_framework_working_example.htm (study)

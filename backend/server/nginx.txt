@@ -1,0 +1,13 @@
+Created 02/02/20
+
+https://nginx.org/en/docs
+
+(Proxy)
+https://nginx.org/en/docs/http/websocket.html
+
+
+(Forward Proxy)
+https://www.baeldung.com/nginx-forward-proxy
+
+(Reverse Proxy)
+https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
