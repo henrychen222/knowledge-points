@@ -1,0 +1,10 @@
+Created 10/10/2019
+
+https://www.baeldung.com/spring-web-flow
+https://docs.spring.io/spring-webflow/docs/current/reference/
+https://spring.io/projects/spring-webflow
+https://examples.javacodegeeks.com/spring-web-flow-tutorial/
+https://dzone.com/refcardz/spring-web-flow
+https://studytrails.com/2016/09/15/spring-web-flow/
+https://www.theserverside.com/news/1365136/Spring-Web-Flow
+https://www.springbyexample.org/examples/simple-spring-web-flow-webapp.html

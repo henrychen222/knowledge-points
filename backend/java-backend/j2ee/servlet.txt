@@ -1,0 +1,90 @@
+Created 07/18/2019
+
+https://www.tutorialspoint.com/servlets/
+
+https://docs.oracle.com/javaee/6/tutorial/doc/bnafd.html   (Chapter 15)
+https://docs.oracle.com/javaee/6/tutorial/doc/glrbb.html    (Chapter 16)
+https://docs.oracle.com/javaee/6/tutorial/doc/bnaxu.html  (Chapter 17)
+
+
+(Life Cycle)
+https://www.tutorialspoint.com/servlets/servlets-life-cycle.htm
+
+(Form Data)
+https://www.tutorialspoint.com/servlets/servlets-form-data.htm
+
+(Client Request)
+https://www.tutorialspoint.com/servlets/servlets-client-request.htm
+
+(Server Response)
+https://www.tutorialspoint.com/servlets/servlets-server-response.htm
+
+(Http Code)
+https://www.tutorialspoint.com/servlets/servlets-http-status-codes.htm
+
+(Writing Filters)
+https://www.tutorialspoint.com/servlets/servlets-writing-filters.htm
+
+(Exception Handling)
+https://www.tutorialspoint.com/servlets/servlets-exception-handling.htm
+<error-page>
+       <exception-type>
+             javax.servlet.ServletException
+       </exception-type >
+       <location>/ErrorHandler</location>
+</error-page>
+
+(Cookies Handling)
+https://www.tutorialspoint.com/servlets/servlets-cookies-handling.htm
+request.getCookies()
+
+(Session Tracking)
+https://www.tutorialspoint.com/servlets/servlets-session-tracking.htm
+Cookie VS HttpSession
+
+(Database Access)
+https://www.tutorialspoint.com/servlets/servlets-database-access.htm
+
+(File Uploading)
+https://www.tutorialspoint.com/servlets/servlets-file-uploading.htm
+enctype = "multipart/form-data"
+
+(Handling Date)
+https://www.tutorialspoint.com/servlets/servlets-handling-date.htm
+
+(Page Redirection)
+https://www.tutorialspoint.com/servlets/servlets-page-redirect.htm
+
+(Hits Counter)
+https://www.tutorialspoint.com/servlets/servlets-hits-counter.htm
+
+(Auto Refresh)
+https://www.tutorialspoint.com/servlets/servlets-auto-refresh.htm
+setIntHeader()
+
+(Sending Email)
+https://www.tutorialspoint.com/servlets/servlets-sending-email.htm
+
+(Packaging)
+https://www.tutorialspoint.com/servlets/servlets-packaging.htm
+
+(Debugging)
+https://www.tutorialspoint.com/servlets/servlets-debugging.htm
+
+(Internationalization)
+https://www.tutorialspoint.com/servlets/servlets-internationalization.htm
+
+(Annotation) important
+https://www.tutorialspoint.com/servlets/servlets-annotations.htm
+@WebServlet
+@WebInitParam
+@WebFilter
+@WebListener
+@HandlesTypes
+@HttpConstraint
+@HttpMethodConstraint
+@MultipartConfig
+@ServletSecurity
+
+
+

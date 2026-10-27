@@ -1,0 +1,5 @@
+Created 10/22/26
+
+https://qdrant.tech/documentation/
+https://github.com/qdrant/qdrant
+https://www.geeksforgeeks.org/data-science/qdrant/

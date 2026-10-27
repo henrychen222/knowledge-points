@@ -1,0 +1,6 @@
+Created 07/17/2019
+
+https://www.tutorialspoint.com/kibana/index.htm
+https://www.elastic.co/guide/en/kibana/index.html
+https://www.elastic.co/guide/en/kibana/current/index.html
+https://www.elastic.co/products/kibana

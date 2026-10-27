@@ -1,0 +1,5 @@
+Created 09/28/19
+
+https://www.baeldung.com/ratpack
+https://ratpack.io/
+https://ratpack.io/manual/current/

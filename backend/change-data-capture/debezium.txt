@@ -1,0 +1,4 @@
+Created 10/27/26 4:18PM
+
+https://debezium.io/documentation/reference/3.7/index.html
+https://www.baeldung.com/debezium-intro

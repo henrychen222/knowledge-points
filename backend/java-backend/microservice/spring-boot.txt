@@ -1,0 +1,270 @@
+Last update: 07/15/2019  11:31AM
+
+https://www.tutorialspoint.com/spring_boot/index.htm
+https://howtodoinjava.com/spring-boot/spring-boot/
+https://www.baeldung.com/spring-boot
+
+**************************** Exception Handling *********
+(Exception/Error Handling)
+https://www.tutorialspoint.com/spring_boot/spring_boot_exception_handling.htm  (practiced)
+https://howtodoinjava.com/spring-boot2/spring-rest-request-validation/
+@ExceptionHandler
+Extends RuntimeException
+
+
+******************************** Beans ***********************************8
+(Beans and Dependency Injection)
+https://www.tutorialspoint.com/spring_boot/spring_boot_beans_and_dependency_injection.htm   (practiced)
+(Get all loaded beans)
+https://howtodoinjava.com/spring-boot/get-loaded-beans-class-type-information/
+           @Bean
+           @ComponentScan: specify packages
+           @Autowired: 
+https://www.tutorialspoint.com/spring/spring_autowired_annotation
+           ApplicationContext.getBeanDefinitionNames()
+           ApplicationContext.getBean(beanName)
+
+(Caching)
+https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/
+           @EnableCaching:  enables Spring’s annotation-driven cache management capability
+           @Cacheable: let spring know that the response of the method are cacheable
+           @CachePut: manipulate the cacheing manually to put (update) cache before method call
+
+(Custom PropertyEditor Configuration)
+https://howtodoinjava.com/spring-boot/custom-property-editor-example/
+extends PropertyEditorSupport
+
+(Runners) Application Runner VS Command Line Runner
+https://www.tutorialspoint.com/spring_boot/spring_boot_runners.htm  (practiced)
+https://howtodoinjava.com/spring-boot/command-line-runner-interface-example/
+https://www.quora.com/What-is-the-difference-between-Command-Line-Runner-and-ApplicationRunner-in-Spring-Boot-in-simple-words
+https://dzone.com/articles/spring-boot-applicationrunner-and-commandlinerunne
+implements ApplicationRunner{}
+implements CommandLineRunner{}
+ApplicationRunner
+https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/ApplicationRunner.html
+CommandLineRunner
+https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/CommandLineRunner.html
+Difference: CommandLineRunner.run() accepts String array[] whereas ApplicationRunner.run() accepts ApplicationArguments as argument
+
+
+************************* Interceptor VS Filter ***********************
+(Interceptor)
+https://www.tutorialspoint.com/spring_boot/spring_boot_interceptor.htm   (practiced)
+usage:
+Before sending the request to the controller
+Before sending the response to the client
+          create @Component class
+          implement the HandlerInterceptor interface
+          register Interceptor: InterceptorRegistry, WebMvcConfigurerAdapter
+(@Component)
+https://www.baeldung.com/spring-component-repository-service
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html
+
+(Servlet Filter)
+https://www.tutorialspoint.com/spring_boot/spring_boot_servlet_filter.htm   (practiced)
+an object used to intercept the HTTP requests and responses of your application
+usage:
+Before sending the request to the controller
+Before sending the response to the client
+          doFilter (ServletRequest …, ServletResponse …, FilterChain …) 
+(@RestController vs @Controller)
+https://javarevisited.blogspot.com/2017/08/difference-between-restcontroller-and-controller-annotations-spring-mvc-rest.html
+@RestController = @Controller + @ResponseBody
+*****************************************************************************
+
+(File Handling)
+https://www.tutorialspoint.com/spring_boot/spring_boot_file_handling.htm  (practiced)
+File Upload   
+public String fileUpload(@RequestParam("file") MultipartFile file) throws IOException {}
+       @RequestParam
+        MultipartFile
+File Download
+public ResponseEntity<Object> downloadFile() throws IOException  {}
+
+(Service Components)
+https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm(practiced)
+@Service
+
+(Internationalization)
+https://www.tutorialspoint.com/spring_boot/spring_boot_internationalization.htm  (practiced)
+
+(Scheduling) 
+https://www.tutorialspoint.com/spring_boot/spring_boot_scheduling.htm  (practiced)
+https://howtodoinjava.com/spring-boot/enable-scheduling-scheduled-job-example/ 
+         @Scheduled 
+         @EnableScheduling
+
+
+*************************** RESTful API *******************************
+(RESTful API)
+https://www.tutorialspoint.com/spring_boot/spring_boot_building_restful_web_services.htm
+https://howtodoinjava.com/spring-boot2/rest-api-example/
+(RESTful POST with Headers)
+https://howtodoinjava.com/spring-boot2/spring-boot2-rest-post-example/  
+@RequestMapping
+@RequestBody
+@PathVariable
+@RequestParam
+
+(Rest Template)
+https://www.tutorialspoint.com/spring_boot/spring_boot_rest_template.htm
+(RestTemplate GET)
+https://howtodoinjava.com/spring-boot2/resttemplate-get-example/
+(RestTemplate POST)
+https://howtodoinjava.com/spring-boot2/resttemplate-post-json-example/
+(RestTemplate timeout)
+https://howtodoinjava.com/spring-boot2/resttemplate-timeout-example/
+(RestTemplate BasicAuth)
+https://howtodoinjava.com/spring-boot2/resttemplate-basicauth-example/
+
+(Async controller)
+https://howtodoinjava.com/spring-boot2/spring-async-controller-responsebodyemitter/
+https://howtodoinjava.com/spring-boot2/spring-async-controller-sseemitter/
+https://howtodoinjava.com/spring-boot2/spring-async-controller-sseemitter/
+(@Async).  @EnableAsync
+https://howtodoinjava.com/spring-boot2/enableasync-async-controller/
+
+(HATEOAS)
+https://howtodoinjava.com/spring-boot2/rest-with-spring-hateoas-example/
+
+(Retry)
+https://howtodoinjava.com/spring-boot2/spring-retry-module/
+    @EnableRetry – to enable spring retry in spring boot project
+    @Retryable – to indicate any method to be a candidate of retry
+    @Recover – to specify fallback method
+
+(Consuming/Use RESTful API)  (skip)
+https://www.tutorialspoint.com/spring_boot/spring_boot_consuming_restful_web_services.htm 
+(CORS Support)    @CrossOrigin
+https://www.tutorialspoint.com/spring_boot/spring_boot_cors_support.htm
+
+
+******************************** Testing ****************************
+(Unit Test Cases)   Mockito, JUnit
+https://www.tutorialspoint.com/spring_boot/spring_boot_unit_test_cases.htm
+https://howtodoinjava.com/spring-boot2/spring-boot-junit-resttemplate/
+
+(Rest Controller Unit Test)  Mockmvc
+https://www.tutorialspoint.com/spring_boot/spring_boot_rest_controller_unit_test.htm
+https://howtodoinjava.com/spring-boot2/spring-boot-mockmvc-example/
+(Unit Test async controller with MockMvc)
+https://howtodoinjava.com/spring-boot2/test-async-controller-mockmvc/
+
+(TestRestTemplate)
+https://howtodoinjava.com/spring-boot2/testresttemplate-post-example/
+
+
+*******************************Security *****************************
+(Securing Web Applications / BasicAuth).  
+https://www.tutorialspoint.com/spring_boot/spring_boot_securing_web_applications.htm
+https://howtodoinjava.com/spring-boot2/security-rest-basic-auth-example/
+        <artifactId>spring-boot-starter-security</artifactId>
+
+(OAuth2 with JWT) 
+https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm
+       <artifactId>spring-security-oauth2</artifactId>
+       <artifactId>spring-security-jwt</artifactId>
+
+(Google OAuth2 Sign-In)
+https://www.tutorialspoint.com/spring_boot/spring_boot_google_oauth2_sign_in.htm
+
+
+*************** Configuration: Application Properties ********************
+(Application Properties)
+https://www.tutorialspoint.com/spring_boot/spring_boot_application_properties.htm
+
+(Logging)
+https://www.tutorialspoint.com/spring_boot/spring_boot_logging.htm
+(Logging with application.yml)
+https://howtodoinjava.com/spring-boot/configure-logging-application-yml/
+(logging with application.properties)
+https://howtodoinjava.com/spring-boot/logging-application-properties/
+(log4j2.xml)
+https://howtodoinjava.com/spring-boot2/spring-boot-log4j2-config/
+(log4j2.Properties)
+https://howtodoinjava.com/spring-boot2/spring-boot2-log4j2-properties/
+
+
+
+(Tomcat Port Number) Change the default port, Custom Port
+https://www.tutorialspoint.com/spring_boot/spring_boot_tomcat_port_number.htm
+https://howtodoinjava.com/spring-boot/change-server-default-port/
+
+(Enabling HTTPS)
+https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm
+
+(Change Application Root)
+https://howtodoinjava.com/spring-boot/change-application-root-context-path/
+        application.properties:  server.port, server.contextPath
+        EmbeddedServletContainerCustomizer interface
+        command line
+ 
+(Google Cloud Platform)
+https://www.tutorialspoint.com/spring_boot/spring_boot_google_cloud_platform.htm
+
+(SSL [https])
+https://howtodoinjava.com/spring-boot/spring-boot-ssl-https-example/
+
+
+***********************External Packages: pom.xml ***********************
+(Actuator)
+https://www.tutorialspoint.com/spring_boot/spring_boot_actuator.htm
+https://howtodoinjava.com/spring-boot/actuator-endpoints-example/
+           <artifactId>spring-boot-starter-actuator</artifactId>
+           Endpoints: /metrics, /env, /health, info, /trace, /dump, /auditevents
+https://docs.spring.io/spring-boot/docs/current/actuator-api/html/
+
+(Configure Jetty Server)
+https://howtodoinjava.com/spring-boot/configure-jetty-server/
+       <artifactId>spring-boot-starter-tomcat</artifactId>
+       <artifactId>spring-boot-starter-jetty</artifactId>
+
+(Enabling Swagger2)
+https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_swagger2.htm
+         <artifactId>springfox-swagger2</artifactId>
+          <artifactId>springfox-swagger-ui</artifactId>
+          @EnableSwagger2
+
+(Creating Docker Image)
+https://www.tutorialspoint.com/spring_boot/spring_boot_creating_docker_image.htm
+
+(Web Socket)
+https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm
+         <artifactId>spring-boot-starter-websocket</artifactId>
+         <artifactId>webjars-locator</artifactId>
+         <artifactId>sockjs-client</artifactId>
+         <artifactId>stomp-websocket</artifactId>
+           @EnableWebSocketMessageBroker
+
+(Batch Service)
+https://www.tutorialspoint.com/spring_boot/spring_boot_batch_service.htm
+           <artifactId>spring-boot-starter-batch</artifactId>
+           @EnableBatchProcessing
+  
+(Apache Kafka)
+https://www.tutorialspoint.com/spring_boot/spring_boot_apache_kafka.htm
+           <artifactId>spring-kafka</artifactId>
+           @EnableKafka
+(Twilio)
+https://www.tutorialspoint.com/spring_boot/spring_boot_twilio.htm
+           <artifactId>twilio</artifactId>
+
+(Thymeleaf)
+https://www.tutorialspoint.com/spring_boot/spring_boot_thymeleaf.htm
+          <artifactId>spring-boot-starter-thymeleaf</artifactId>
+
+(Sending Email)
+https://www.tutorialspoint.com/spring_boot/spring_boot_sending_email.htm
+          <artifactId>spring-boot-starter-mail</artifactId>
+
+
+
+************************ Database ******************
+(Database Handling) H2 database, Redis
+https://www.tutorialspoint.com/spring_boot/spring_boot_database_handling.htm
+(H2)
+https://howtodoinjava.com/spring-boot2/h2-database-example/
+
+(Flyway Database)
+https://www.tutorialspoint.com/spring_boot/spring_boot_flyway_database.htm

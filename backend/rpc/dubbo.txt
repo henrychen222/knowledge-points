@@ -1,0 +1,12 @@
+----- 04/16/20 night
+(Apache Dubbo)
+https://jaxenter.com/apache-dubbo-java-based-rpc-framework-158784.html
+
+
+----- 02/08/21 afternoon
+https://dubbo.apache.org/en/
+   https://dubbo.apache.org/en/overview/mannual/java-sdk/tasks/
+   
+https://github.com/apache/dubbo
+https://www.baeldung.com/dubbo
+https://www.alibabacloud.com/help/en/edas/developer-reference/use-spring-boot-to-develop-dubbo-microservice-oriented-applications

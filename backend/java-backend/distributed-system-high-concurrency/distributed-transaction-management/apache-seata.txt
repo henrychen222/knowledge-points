@@ -1,0 +1,6 @@
+Created 10/30/23  3:34PM
+
+https://seata.apache.org/docs/user/quickstart/
+http://seata.io/zh-cn/docs/next/overview/what-is-seata
+https://github.com/seata
+https://www.baeldung.com/apache-seata-distributed-transaction-management

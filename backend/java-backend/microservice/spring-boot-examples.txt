@@ -1,0 +1,58 @@
+-------------------------------------------------- 06/08/19 night -----------------------------------------------
+(spring boot microservices tutorial)
+https://spring.io/blog/2015/07/14/microservices-with-spring
+https://gorillalogic.com/blog/microservices-with-spring-boot-and-spring-cloud-developer-tutorial/  (Monolithic vs. Microservices architecture)
+https://www.tutorialspoint.com/spring_boot/spring_boot_eureka_server.htm
+https://github.com/in28minutes/spring-boot-examples/tree/master/spring-boot-basic-microservice
+https://www.edureka.co/blog/microservices-with-spring-boot
+https://jaxenter.com/spring-boot-tutorial-rest-services-and-microservices-135148.html
+https://dzone.com/articles/spring-boot-microservices-building-microservices-a
+https://www.dineshonjava.com/microservices-with-spring-boot/
+(Study this series)
+https://www.springboottutorial.com/creating-microservices-with-spring-boot-part-1-getting-started    Part 1
+https://www.springboottutorial.com/creating-microservices-with-spring-boot-part-2-forex-microservice   Part 2
+https://www.springboottutorial.com/creating-microservices-with-spring-boot-part-3-currency-conversion-microservice   Part 3 
+https://www.springboottutorial.com/microservices-with-spring-boot-part-4-ribbon-for-load-balancing    Part 4
+https://www.springboottutorial.com/microservices-with-spring-boot-part-5-eureka-naming-server     Part 5
+(Study)
+https://www.youtube.com/watch?v=rlS9eH5tEnY
+https://github.com/TechPrimers/stock-price-viewer-microservices-part1
+
+
+-------------------------------------------------- 07/19/19 afternoon -----------------------------------------------
+(microservice project structure)
+https://stackoverflow.com/questions/47265946/microservice-project-structure-using-spring-boot-and-spring-cloud
+https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3  (good)
+https://dzone.com/articles/basic-things-to-setup-an-microservices-architectur
+https://microservices.io/patterns/microservices.html
+
+(microservice project structure spring boot)
+https://dzone.com/articles/spring-boot-creating
+https://blog.scottlogic.com/2016/06/13/code-reuse-in-microservices-architecture.html
+
+
+
+
+-------------------------------------------------- 07/01/19 -----------------------------------------------
+(dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-eureka:jar is missing)
+https://stackoverflow.com/questions/51921033/project-build-error-dependencies-dependency-version-for-org-springframework-c  (good tried)
+https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Edgware-Release-Notes (very good)
+http://cgenit.blogspot.com/2018/11/dependenciesdependencyversion-for.html
+
+(spring-cloud-starter-netflix-eureka-server  maven)
+https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server
+https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server/2.1.2.RELEASE
+https://spring.io/guides/gs/service-registration-and-discovery/  (tried)
+
+(spring-cloud-starter-eureka-server  maven)
+https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server
+https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server/1.4.7.RELEASE
+
+
+(<spring-cloud.version>)
+https://spring.io/projects/spring-cloud
+https://spring.io/projects/spring-cloud-netflix  (tried)
+https://spring.io/blog/2019/01/23/spring-cloud-greenwich-release-is-now-available
+https://spring.io/blog/2018/06/19/spring-cloud-finchley-release-is-available   (build success)
+https://spring.io/blog/2017/11/27/spring-cloud-edgware-release-available
+https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies  (good)

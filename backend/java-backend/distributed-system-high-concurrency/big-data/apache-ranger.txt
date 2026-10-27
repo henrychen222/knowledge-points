@@ -1,0 +1,10 @@
+Created 09/26/23 1:51PM
+
+https://ranger.apache.org/
+https://cwiki.apache.org/confluence/display/RANGER/Index
+https://github.com/apache/ranger
+
+
+https://www.oschina.net/p/apache+ranger
+https://blog.csdn.net/weixin_43914798/article/details/119173298
+https://blog.csdn.net/eason_oracle/article/details/68487785

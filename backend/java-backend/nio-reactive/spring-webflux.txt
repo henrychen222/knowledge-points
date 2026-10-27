@@ -1,0 +1,14 @@
+Created 10/09/19
+
+https://www.baeldung.com/spring-webflux
+https://docs.spring.io/spring-framework/reference/web/webflux.html
+https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/
+https://developer.okta.com/blog/2018/09/24/reactive-apis-with-spring-webflux
+
+(spring webflux tutorial)
+https://thepracticaldeveloper.com/2017/11/04/full-reactive-stack-with-spring-webflux-and-angularjs/
+https://stackabuse.com/spring-reactor-tutorial/
+https://spring.io/guides/gs/reactive-rest-service/
+https://auth0.com/blog/introduction-getting-started-with-spring-webflux-api/
+https://medium.com/@mohitsinha.it/spring-boot-reactive-tutorial-ffab309b2dcd 
+

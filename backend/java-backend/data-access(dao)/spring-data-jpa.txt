@@ -1,0 +1,13 @@
+Created 01/25/2020 evening
+
+https://docs.spring.io/spring-data/jpa/reference/jpa.html
+https://www.tutorialspoint.com/spring_boot_jpa/index.htm
+https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa
+https://www.geeksforgeeks.org/springboot/what-is-spring-data-jpa/
+
+
+
+(Named Queries)
+https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
+https://www.baeldung.com/jpa-queries
+https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html#jpa.query-methods.named-queries.annotation-based-configuration

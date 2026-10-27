@@ -1,0 +1,120 @@
+Created 02/01/2020
+https://www.tutorialspoint.com/springjdbc/index.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc
+
+
+***************************** Objects / Class *************************
+(JdbcTemplate)
+https://www.tutorialspoint.com/springjdbc/springjdbc_jdbctemplate.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-JdbcTemplate
+https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/JdbcTemplate.html
+
+(NamedParameterJdbcTemplate)
+https://www.tutorialspoint.com/springjdbc/springjdbc_namedparameterjdbctemplate.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-NamedParameterJdbcTemplate
+https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.html
+
+(SimpleJdbcInsert)
+https://www.tutorialspoint.com/springjdbc/springjdbc_simplejdbcinsert.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-insert-1
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-insert-2
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-insert-3
+https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/simple/SimpleJdbcInsert.html
+
+(SimpleJdbcCall)
+https://www.tutorialspoint.com/springjdbc/springjdbc_simplejdbccall.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-call-1
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-call-2
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-call-3
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-call-4
+https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/simple/SimpleJdbcCall.html
+
+
+(SqlQuery)
+https://www.tutorialspoint.com/springjdbc/springjdbc_sqlquery.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-SqlQuery
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/object/SqlQuery.html
+
+(SqlUpdate)
+https://www.tutorialspoint.com/springjdbc/springjdbc_sqlupdate.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-SqlUpdate
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/object/SqlUpdate.html
+
+(StoredProcedure)
+https://www.tutorialspoint.com/springjdbc/springjdbc_storedprocedure.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-StoredProcedure
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/object/StoredProcedure.html
+
+(PreparedStatementSetter)
+https://www.tutorialspoint.com/springjdbc/springjdbc_preparedstatementsetter.htm
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/PreparedStatementSetter.html
+
+(ResultSetExtractor)
+https://www.tutorialspoint.com/springjdbc/springjdbc_resultsetextractor.htm
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/ResultSetExtractor.html
+
+(RowMapper)
+https://www.tutorialspoint.com/springjdbc/springjdbc_rowmapper.htm
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/RowMapper.html
+
+
+
+***************************** CRUD **************************
+(Create Query)
+https://www.tutorialspoint.com/springjdbc/springjdbc_create_query.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-JdbcTemplate-examples-update
+
+(Read Query)
+https://www.tutorialspoint.com/springjdbc/springjdbc_read_query.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-JdbcTemplate-examples-query
+
+(Update Query)
+https://www.tutorialspoint.com/springjdbc/springjdbc_update_query.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-JdbcTemplate-examples-update
+
+(Delete Query)
+https://www.tutorialspoint.com/springjdbc/springjdbc_delete_query.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-JdbcTemplate-examples-update
+
+
+
+
+
+
+************************ Store Procedure / Function, BLOB/CLOB ********************
+(Calling Stored Procedure) --- SimpleJdbcCall
+https://www.tutorialspoint.com/springjdbc/springjdbc_stored_procedure.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-call-1
+
+(Calling Stored Function) --- SimpleJdbcCall
+https://www.tutorialspoint.com/springjdbc/springjdbc_stored_function.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-call-3
+
+(Handling BLOB)
+https://www.tutorialspoint.com/springjdbc/springjdbc_handling_blob.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-lob
+
+(Handling CLOB)
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-lob
+https://www.tutorialspoint.com/springjdbc/springjdbc_handling_clob.htm
+
+(Using SqlParameterSource to provide Parameter Value)
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-simple-jdbc-parameters
+
+
+
+
+
+
+**************************** Batch Operation*****************
+(Batch Operation)
+https://www.tutorialspoint.com/springjdbc/springjdbc_batch_operation.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-advanced-jdbc
+
+(Objects Batch Operation)
+https://www.tutorialspoint.com/springjdbc/springjdbc_object_batch.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-batch-list
+
+(Multiple Batches Operation)
+https://www.tutorialspoint.com/springjdbc/springjdbc_multiple_batches.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-batch-multi

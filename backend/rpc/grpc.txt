@@ -1,0 +1,9 @@
+----- 04/16/20 night  04/09/21  1:57AM
+(best rpc framework)
+https://www.hardikp.com/2018/07/28/services/
+
+(gRPC)
+https://www.tutorialspoint.com/grpc/index.htm
+https://grpc.io/docs/
+https://grpc.io/docs/guides/
+https://github.com/grpc/grpc-java

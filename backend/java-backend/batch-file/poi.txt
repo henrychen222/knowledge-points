@@ -1,0 +1,39 @@
+Created 10/10/23 2:00 AM
+
+
+https://www.baeldung.com/java-microsoft-word-with-apache-poi
+https://www.tutorialspoint.com/apache_poi_word/index.htm
+
+
+Core class: 
+https://www.tutorialspoint.com/apache_poi_word/apache_poi_word_core_classes.htm
+
+XWPFDocument,  https://poi.apache.org/apidocs/dev/org/apache/poi/xwpf/usermodel/XWPFDocument.html
+
+XWPFParagraph, 
+https://poi.apache.org/apidocs/dev/org/apache/poi/xwpf/usermodel/XWPFParagraph.html
+
+XWPFRun, 
+https://poi.apache.org/apidocs/dev/org/apache/poi/xwpf/usermodel/XWPFRun.html
+
+XWPFStyle, 
+https://poi.apache.org/apidocs/dev/org/apache/poi/xwpf/usermodel/XWPFStyle.html
+
+XWPFTable, 
+https://poi.apache.org/apidocs/dev/org/apache/poi/xwpf/usermodel/XWPFTable.html
+
+XWPFWordExtractor
+https://poi.apache.org/apidocs/dev/org/apache/poi/xwpf/extractor/XWPFWordExtractor.html
+
+
+Document
+https://www.tutorialspoint.com/apache_poi_word/apache_poi_word_document.htm
+
+Paragraph
+https://www.tutorialspoint.com/apache_poi_word/apache_poi_word_paragraph.htm
+
+Borders
+https://www.tutorialspoint.com/apache_poi_word/apache_poi_word_borders.htm
+
+Tables
+https://www.tutorialspoint.com/apache_poi_word/apache_poi_word_tables.htm

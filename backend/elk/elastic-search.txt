@@ -1,0 +1,127 @@
+Created 07/17/2019
+
+(elasticsearch java)
+https://www.baeldung.com/elasticsearch-java
+https://www.geeksforgeeks.org/advance-java/elasticsearch-in-java-applications/
+https://github.com/elastic/elasticsearch-java
+https://www.elastic.co/docs/reference/elasticsearch/clients/java/getting-started
+
+(elasticsearch)
+https://www.tutorialspoint.com/elasticsearch/index.htm
+https://www.elastic.co/guide/index.html
+https://github.com/elastic/docs
+
+(Basic Concepts)  
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_basic_concepts.htm
+Advantages
+Disadvantages
+Elastic Search VS RDBMS
+
+(Populate)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_populate.htm
+https://www.geeksforgeeks.org/elasticsearch/elasticsearch-populate/
+
+(Migration between Versions)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_migrations_between_versions.htm
+
+
+(API Conventions)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_api_conventions.htm
+https://www.elastic.co/docs/reference/elasticsearch/clients/java/api-conventions
+
+(Document APIs)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_document_apis.htm
+
+(Search APIs)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_search_apis.htm
+
+(Aggregations)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_aggregations.htm
+https://www.elastic.co/docs/reference/elasticsearch/clients/java/usage/aggregations
+
+(Index APIs)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_index_apis.htm
+https://www.elastic.co/docs/reference/elasticsearch/clients/java/usage/indexing
+
+(Cat APIs)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_cat_apis.htm
+https://www.elastic.co/docs/reference/elasticsearch/rest-apis
+
+(Cluster APIs)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_cluster_apis.htm
+https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/_cluster_apis.html
+
+(Query DSL)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_query_dsl.htm
+https://www.geeksforgeeks.org/elasticsearch/using-query-dsl-for-complex-search-queries-in-elasticsearch/
+https://www.elastic.co/docs/explore-analyze/query-filter/languages/querydsl
+
+(Mapping)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_mapping.htm
+https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/java-rest-high-get-mappings.html
+
+(Analysis)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_analysis.htm
+https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/java-rest-high-analyze.html
+
+(Modules)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_modules.htm
+
+(Index Modules)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_index_modules.htm
+
+(IngestNode)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_ingest_node.htm
+
+(Managing Index Lifecycle)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_managing_index_lifecycle.htm
+
+(SQL Access)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_sql_access.htm
+
+(Monitoring)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_monitoring.htm
+
+(Rollup Data)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_rollup_data.htm
+
+(Frozen Indices)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_frozen_indices.htm
+
+(Testing)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_testing.htm
+
+(Kibana)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_kibana_dashboard.htm
+
+(Filtering by Field)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_filtering_by_field.htm
+
+(Data Tables)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_data_tables.htm
+
+
+
+(Region Maps)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_region_maps.htm
+
+(Pie Charts)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_pie_charts.htm
+
+(Area and Bar Charts)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_area_and_bar_charts.htm
+
+(Time Series)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_time_series.htm
+
+(Tag Clouds)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_tag_clouds.htm
+
+(Heat Maps)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_heat_maps.htm
+
+(Canvas)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_canvas.htm
+
+(Logs UI)
+https://www.tutorialspoint.com/elasticsearch/elasticsearch_logs_ui.htm

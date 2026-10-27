@@ -1,0 +1,9 @@
+Created 10/27/26 1:05PM
+
+https://learn.microsoft.com/en-us/azure/databricks/
+
+(Build an ETL pipeline using change data capture)
+https://learn.microsoft.com/en-us/azure/databricks/ldp/tutorial-pipelines
+
+(Data warehousing)
+https://learn.microsoft.com/en-us/azure/databricks/sql/

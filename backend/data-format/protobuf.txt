@@ -1,0 +1,9 @@
+Created 01/22/22
+
+https://www.tutorialspoint.com/protobuf/index.htm
+https://www.baeldung.com/google-protocol-buffer
+https://en.wikipedia.org/wiki/Protocol_Buffers
+https://github.com/protocolbuffers/protobuf
+https://protobuf.dev/getting-started/javatutorial/
+
+https://www.baeldung.com/java-protocol-buffer-grpc-differences

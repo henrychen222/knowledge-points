@@ -1,0 +1,6 @@
+Created 03/27/20
+
+https://learn.microsoft.com/en-us/azure/container-registry/
+
+(Build from source context)
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-quick-task

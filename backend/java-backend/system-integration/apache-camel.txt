@@ -1,0 +1,13 @@
+Created 10/26/26 3:16PM
+
+https://camel.apache.org/docs/
+https://camel.apache.org/manual/index.html
+
+https://www.baeldung.com/apache-camel-intro
+https://www.baeldung.com/apache-camel-spring-boot
+https://www.baeldung.com/spring-apache-camel-tutorial
+https://www.baeldung.com/spring-conversational-ai-langchain4j-ollama-wa
+https://www.baeldung.com/spring-boot-apache-camel-producertemplate
+https://www.baeldung.com/apache-camel-docling-langchain4j
+https://www.baeldung.com/llm-integration-apache-camel-openai-component
+https://www.baeldung.com/spring-apache-camel-seda-integration

@@ -1,0 +1,12 @@
+Created 09/29/2019
+
+https://micronaut.io/
+https://docs.micronaut.io/latest/
+
+(micronaut tutorial)
+https://www.baeldung.com/micronaut
+https://dzone.com/articles/micronaut-tutorial-server-application
+https://dzone.com/articles/micronaut-tutorial-beans-and-scopes
+https://github.com/micronaut-projects/micronaut-examples
+https://www.infoq.com/articles/micronaut-tutorial-microservices-jvm/
+https://piotrminkowski.wordpress.com/2019/04/23/micronaut-tutorial-server-application/

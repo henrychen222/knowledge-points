@@ -1,0 +1,15 @@
+--------------------------------------- Created 09/16/21 3:10pm ----------------------------------------------
+https://www.baeldung.com/netty
+https://netty.io/wiki/index.html
+https://developer.okta.com/blog/2019/11/25/java-netty-webflux
+
+
+
+
+--------------------------------------- Created 11/07/23 evening ----------------------------------------------
+(Netty Reactor)
+https://www.baeldung.com/spring-boot-reactor-netty
+https://github.com/reactor/reactor-netty
+  https://projectreactor.io/docs/netty/release/reference/index.html
+  https://violetagg.github.io/reactor-netty-workshop/
+

@@ -1,0 +1,112 @@
+Created 10/03/19
+https://www.baeldung.com/security-spring
+https://docs.spring.io/spring-security/reference/index.html
+https://www.tutorialspoint.com/spring_security/index.htm
+https://howtodoinjava.com/spring-security-tutorial
+https://www.mkyong.com/tutorials/spring-security-tutorials
+https://www.javacodegeeks.com/spring-security-tutorials
+
+
+****************************************************** Authentication ************************************************************
+(Form Login)
+https://www.baeldung.com/spring-security-login
+https://www.geeksforgeeks.org/advance-java/spring-security-basic-authentication/
+https://www.tutorialspoint.com/spring_security/spring_security_form_login.htm
+https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/form.html
+
+(Basic Authentication)
+https://www.baeldung.com/spring-security-basic-authentication
+https://www.geeksforgeeks.org/advance-java/spring-security-basic-authentication/
+https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/basic.html
+
+(Authentication Provider)
+https://www.baeldung.com/spring-security-authentication-provider
+https://www.geeksforgeeks.org/java/spring-security-authentication-providers/
+https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/dao-authentication-provider.html
+
+(Custom AuthenticationFailureHandler)
+https://www.baeldung.com/spring-security-custom-authentication-failure-handler
+https://www.geeksforgeeks.org/advance-java/spring-security-custom-authenticationfailurehandler/
+
+(Login Page with React)
+https://www.baeldung.com/spring-security-login-react
+https://www.geeksforgeeks.org/reactjs/spring-security-login-page-with-react/
+https://www.tutorialspoint.com/spring_security/spring_security_login_react.htm
+
+(Upgrading the Deprecated WebSecurityConfigurerAdapter)
+https://www.baeldung.com/spring-deprecated-websecurityconfigureradapter
+https://www.geeksforgeeks.org/advance-java/upgrading-the-deprecated-websecurityconfigureradapter-in-spring-security/
+
+(Securing Spring Boot API With API Key and Secret)
+https://www.baeldung.com/spring-boot-api-key-secret
+https://www.geeksforgeeks.org/advance-java/securing-spring-boot-api-with-api-key-and-secret/
+
+(Securing Spring Boot Applications With SSL Bundles)
+https://www.baeldung.com/spring-boot-security-ssl-bundles
+https://www.geeksforgeeks.org/advance-java/securing-spring-boot-3-applications-with-ssl-bundles/
+
+(Two Factor Auth with Spring Security)
+https://www.baeldung.com/spring-security-two-factor-authentication-with-soft-token
+https://www.geeksforgeeks.org/advance-java/spring-security-two-factor-authentication/
+
+
+****************************************************** Authorization ************************************************************
+(Spring Method Security)
+https://www.baeldung.com/spring-security-method-security
+https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html
+
+(Role Based Authentication)
+https://www.baeldung.com/role-and-privilege-for-spring-security-registration
+https://www.geeksforgeeks.org/advance-java/spring-security-role-based-authentication/
+https://docs.spring.io/spring-security/reference/servlet/authorization/architecture.html
+
+(Expressions)
+https://www.baeldung.com/spring-security-expressions
+https://www.geeksforgeeks.org/advance-java/introduction-to-spring-security-expressions/
+https://www.tutorialspoint.com/spring_security/spring_security_expressions.htm
+
+(Custom Expressions)
+https://www.baeldung.com/spring-security-create-new-custom-security-expression
+https://www.geeksforgeeks.org/advance-java/spring-security-customizing-authentication-and-authorization/
+
+
+
+
+(spring security tutorial example)
+https://www.journaldev.com/2715/spring-security-example-tutorial
+https://spring.io/guides/gs/securing-web/
+
+****************http://websystique.com/spring-security-tutorial/ ****************
+ (Spring Boot Application)
+http://websystique.com/spring-security/secure-spring-rest-api-using-basic-authentication/ (good)
+http://websystique.com/spring-security/secure-spring-rest-api-using-oauth2/ (good)
+http://websystique.com/spring-security/angularjs-basic-authentication-using-spring-security/
+
+(All SpringMVC  JSP example)
+http://websystique.com/spring-security/spring-security-4-hello-world-annotation-xml-example/
+http://websystique.com/spring-security/spring-security-4-custom-login-form-annotation-example/
+http://websystique.com/spring-security/spring-security-4-logout-example/
+http://websystique.com/spring-security/spring-security-4-secure-view-layer-using-taglibs/
+http://websystique.com/spring-security/spring-security-4-role-based-login-example/
+http://websystique.com/spring-security/spring-security-4-hibernate-annotation-example/
+http://websystique.com/spring-security/spring-security-4-hibernate-role-based-login-example/
+http://websystique.com/spring-security/spring-security-4-password-encoder-bcrypt-example-with-hibernate/
+http://websystique.com/spring-security/spring-security-4-remember-me-example-with-hibernate/
+http://websystique.com/spring-security/spring-security-4-method-security-using-preauthorize-postauthorize-secured-el/
+http://websystique.com/springmvc/spring-mvc-4-and-spring-security-4-integration-example/
+
+
+
+
+
+Created 09/26/23   1:51PM
+(kerberos)
+https://www.baeldung.com/spring-security-kerberos
+
+https://blog.csdn.net/qq_20042935/article/details/131599660
+https://blog.51cto.com/u_16213315/7131923
+https://www.cnblogs.com/kevinlucky/p/16772661.html   krb5.conf
+https://www.qyyshop.com/info/629097.html
+https://blog.51cto.com/u_14499/6961183
+https://blog.csdn.net/qq_37928228/article/details/130386462
+

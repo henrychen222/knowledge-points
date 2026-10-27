@@ -1,0 +1,5 @@
+Created 01/22/22
+
+https://www.baeldung.com/apache-thrift
+https://thrift.apache.org/
+https://github.com/apache/thrift

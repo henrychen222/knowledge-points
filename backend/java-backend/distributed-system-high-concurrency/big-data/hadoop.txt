@@ -1,0 +1,5 @@
+Created 10/19/23
+
+https://www.tutorialspoint.com/hadoop/index.htm
+https://docs.spring.io/spring-hadoop/docs/current/reference/html/
+https://www.geeksforgeeks.org/hadoop-tutorial/

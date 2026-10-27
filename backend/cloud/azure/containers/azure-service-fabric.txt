@@ -1,0 +1,6 @@
+Created 03/27/20
+
+https://learn.microsoft.com/en-us/azure/service-fabric/
+
+(Deploy a .NET app using Docker Compose)
+https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-host-app-in-a-container

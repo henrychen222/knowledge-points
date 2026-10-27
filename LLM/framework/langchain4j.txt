@@ -1,0 +1,25 @@
+Created 09/03/26
+
+https://www.bilibili.com/video/BV1sDMqzpEQ3/?spm_id_from=333.337.search-card.all.click&vd_source=24c88542f75c860ce35fad89aacac2f4
+
+https://docs.langchain4j.dev/
+https://www.baeldung.com/java-langchain-basics
+
+
+(Chat Memory)
+https://docs.langchain4j.dev/tutorials/chat-memory
+
+(AI Services)
+https://docs.langchain4j.dev/tutorials/ai-services
+
+(Tools (Function Calling))
+https://docs.langchain4j.dev/tutorials/tools
+
+(RAG (Retrieval-Augmented Generation))
+https://docs.langchain4j.dev/tutorials/rag
+
+(Embedding (Vector) Stores)
+https://docs.langchain4j.dev/tutorials/embedding-stores
+
+(Model Context Protocol (MCP))
+https://docs.langchain4j.dev/tutorials/mcp/

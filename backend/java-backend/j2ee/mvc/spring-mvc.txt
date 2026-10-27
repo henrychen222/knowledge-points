@@ -1,0 +1,40 @@
+Created 07/09/2019
+
+https://www.tutorialspoint.com/springmvc/index.htm
+https://howtodoinjava.com/spring-mvc-tutorial/
+https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web
+
+
+********** Handle Mapping *****
+
+********** Controller *************
+(Multi Action Controller)
+https://www.tutorialspoint.com/springmvc/springmvc_multiactioncontroller.htm
+map multiple URLs with their methods in a single controller respectively
+
+(Properties Method Name Resolver)
+https://www.tutorialspoint.com/springmvc/springmvc_propertiesmethodnameresolver.htm
+<property name = "methodNameResolver">
+
+(Parameter Method Name Resolver)
+https://www.tutorialspoint.com/springmvc/springmvc_parametermethodnameresolver.htm
+<property name = "paramName" >
+
+(Parameterizable View Controller)
+https://www.tutorialspoint.com/springmvc/springmvc_parameterizableviewcontroller.htm
+<bean class="org.springframework.web.servlet.mvc.ParameterizableViewController"/>
+
+********** ViewResolver *************
+(Internal Resource View Resolver)
+https://www.tutorialspoint.com/springmvc/springmvc_internalresourceviewresolver.htm
+resolve the provided URI to actual URI
+
+(Xml View Resolver)
+https://www.tutorialspoint.com/springmvc/springmvc_xmlviewresolver.htm
+resolve the view names using view beans defined in xml file
+
+(Resource Bundle View Resolver)
+resolve the view names using view beans defined in the properties file
+
+(Multiple Resolver)
+https://www.tutorialspoint.com/springmvc/springmvc_multiple_resolver_mapping.htm

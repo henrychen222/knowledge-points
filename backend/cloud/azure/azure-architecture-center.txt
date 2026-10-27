@@ -1,0 +1,7 @@
+Created 10/27/26 3:49PM
+
+https://learn.microsoft.com/en-us/azure/architecture/
+
+
+(ETL)
+https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl

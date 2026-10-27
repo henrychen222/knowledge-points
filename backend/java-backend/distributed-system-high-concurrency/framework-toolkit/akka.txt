@@ -1,0 +1,47 @@
+Created 09/29/23  4:34PM
+
+https://www.baeldung.com/akka-http
+https://www.baeldung.com/akka-with-spring
+
+https://akka.io/docs/  read
+
+ 
+****************************** Akka Distributed Cluster****************************
+https://doc.akka.io/docs/akka-distributed-cluster/current/index.html
+      Part 1: Event Sourced Shopping Cart
+      https://doc.akka.io/docs/akka-distributed-cluster/current/guide/1-event-sourced-shopping-cart.html
+      Part 2: Service to Service eventing
+      https://doc.akka.io/docs/akka-distributed-cluster/current/guide/2-service-to-service.html
+       Part 3: Active-active
+       https://doc.akka.io/docs/akka-distributed-cluster/current/guide/3-active-active.html
+       Part 4: Deploying with Kubernetes
+       https://doc.akka.io/docs/akka-distributed-cluster/current/guide/4-deploying.html
+
+***************************** Akka Persistence********************************
+https://doc.akka.io/docs/akka/current/typed/index-persistence.html
+
+
+***************************** Akka Projection********************************
+https://doc.akka.io/docs/akka-projection/current/
+
+
+***************************** Akka Management********************************
+https://doc.akka.io/docs/akka-management/current/
+
+
+***************************** Alpakka ********************************
+https://doc.akka.io/docs/alpakka/current/
+
+
+***************************** Alpakka Kafka********************************
+https://doc.akka.io/docs/alpakka-kafka/current/
+
+
+***************************** Akka gRPC ********************************
+https://doc.akka.io/docs/akka-grpc/current/
+
+(Serving the service with Akka HTTP)
+https://doc.akka.io/docs/akka-grpc/current/server/walkthrough.html#serving-the-service-with-akka-http
+
+(Akka HTTP authentication route)
+https://doc.akka.io/docs/akka-grpc/current/server/akka-http.html#akka-http-authentication-route

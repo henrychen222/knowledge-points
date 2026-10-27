@@ -1,0 +1,75 @@
+Created 01/25/2020   8:13 PM
+
+(Hibernate VS iBATIS)
+https://stackoverflow.com/questions/1984548/hibernate-vs-ibatis
+
+
+(iBATIS) 
+https://www.tutorialspoint.com/ibatis/
+https://ibatis.apache.org/
+
+
+
+*************************************************************
+(Mybatis) ------ Study this, Mybatis is developed from iBATIS
+https://www.baeldung.com/spring-mybatis
+http://mybatis.org/spring/
+https://www.tutorialspoint.com/mybatis/ (read)
+https://mybatis.org/mybatis-3/
+
+
+
+(Configuration XML) can be used with Java Config with Annotation
+https://mybatis.org/mybatis-3/configuration.html#
+    https://mybatis.org/mybatis-3/configuration.html#properties  (properties)
+    https://mybatis.org/mybatis-3/configuration.html#settings   (settings)
+https://mybatis.org/mybatis-3/configuration.html#typeAliases  (typeAliases)
+https://mybatis.org/mybatis-3/configuration.html#typeHandlers (typeHandlers)
+https://mybatis.org/mybatis-3/configuration.html#objectFactory (objectFactory)
+https://mybatis.org/mybatis-3/configuration.html#plugins   (plugins)
+https://mybatis.org/mybatis-3/configuration.html#environments
+https://mybatis.org/mybatis-3/configuration.html#databaseIdProvider  (databaseIdProvider)
+https://mybatis.org/mybatis-3/configuration.html#mappers  (mappers)
+
+
+(Mapper XML Files)
+https://mybatis.org/mybatis-3/sqlmap-xml.html
+     https://mybatis.org/mybatis-3/sqlmap-xml.html#select  (select)
+     https://mybatis.org/mybatis-3/sqlmap-xml.html#insert_update_and_delete  (insert, update, delete)
+     https://mybatis.org/mybatis-3/sqlmap-xml.html#Parameters  (Parameters)
+     https://mybatis.org/mybatis-3/sqlmap-xml.html#Result_Maps  (Result Maps)
+     https://mybatis.org/mybatis-3/sqlmap-xml.html#Auto-mapping  (Auto-mapping)
+     https://mybatis.org/mybatis-3/sqlmap-xml.html#cache  (cache)
+
+(Dynamic SQL)     if, choose, when, otherwise, trim, where, set, foreach, script, bind, 
+https://mybatis.org/mybatis-3/dynamic-sql.html   
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------- Mybatis Spring ----------------
+(SqlSessionFactoryBean)
+http://mybatis.org/spring/factorybean.html
+
+(Transactions)
+http://mybatis.org/spring/transactions.html
+      http://mybatis.org/spring/transactions.html#configuration  (Standard Configuration)
+      http://mybatis.org/spring/transactions.html#container
+
+(SqlSession)
+http://mybatis.org/spring/sqlsession.html
+     http://mybatis.org/spring/sqlsession.html#SqlSessionTemplate  (SqlSessionTemplate)
+     http://mybatis.org/spring/sqlsession.html#SqlSessionDaoSupport  (SqlSessionDaoSupport)
+     http://mybatis.org/spring/transactions.html#programmatic  (Programmatic Transaction Management)
+
+(Injecting Mappers)
+http://mybatis.org/spring/mappers.html
+      http://mybatis.org/spring/mappers.html#register  (Registering a mapper)
+      http://mybatis.org/spring/mappers.html#scan     (Scanning for mappers)  @MapperScan

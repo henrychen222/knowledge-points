@@ -1,0 +1,3 @@
+Created 09/03/26
+
+https://docs.ollama.com/api/introduction

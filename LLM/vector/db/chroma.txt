@@ -1,0 +1,4 @@
+Created 10/22/26
+
+https://docs.trychroma.com/docs/overview/introduction
+https://github.com/chroma-core/chroma

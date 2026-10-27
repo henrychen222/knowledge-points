@@ -1,0 +1,400 @@
+Created 06/12/2020
+
+(References)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html (focus this)
+https://howtodoinjava.com/hibernate-tutorials/
+https://www.tutorialspoint.com/hibernate/
+
+
+Architecture
+Configuration
+Mapping Files
+Annotations
+
+Domain Model
+Persistent Class, Entity
+      LifeCycle States
+Mapping Types
+Basic Types: 
+     BLOB
+Mapping, O/R Mappings
+     Collection Mapping: Set, SortedSet, List Bag, Map, SortedMap, Arrays
+     Association Mapping: 
+          ManytoOne, OneToMany, OnetoOne, ManyToMany, NotFound, Any, JoinFormula, 
+          JoinColumnOrFormula 
+     Component Mapping: 
+     Inheritance Mapping: 
+
+Persistence Context
+     Entities Equality
+       Get/ Obtain Entity Reference
+       Merging and Refreshing Entities
+       Filtering data
+
+Bootstrap
+     JPA Bootstrapping
+     Native Bootstrapping  (3 ways)
+            ServiceRegistry------ BootstrapServiceRegistry
+            Metadata ------ ServiceRegistry, StandardServiceRegistryBuilder, MetadataSources, 
+                                        Metadata, MetadataBuilder
+            SessionFactory ------- standardServiceRegistry, MetadataSources, Metadata
+
+HQL and JQPL
+Query API
+
+Criteria Queries
+     Criteria API
+     Restrictions API
+     ProjectionList API
+ Projections API
+ Projections API
+ Example API
+
+Native SQL 
+     @NamedQueries  @NamedQueries
+    @NamedNativeQueries   @NamedNativeQuery
+
+Caching
+First Level Cache
+Second Level Cache
+       Concurrency Strategies
+       Cache Provider: EhCache, OSCache, SwarmCache, JBoss Cache/JBoss TreeCache
+
+Batch Processing
+   batch insert: flush(), clear()
+   batch updates:  scroll()
+   StatelessSession
+
+Interceptors and Events
+
+Transaction and Concurrency
+
+Performance Tuning (Improve performance)
+       Schema management
+       Logging
+       JDBC batching
+       Mapping Identifiers
+             fixed-size sequence (UUID)
+             Natural identifiers: Generators (IDENTITY, SEQUENCE, TABLE)
+       Mapping Associations
+       Inheritance
+       Fetching: Lazy Loading
+       Caching
+
+Database Access
+      C3P0 Connection Pool
+      In-memory Database
+
+Hibernate Validator
+       Bean Validation
+       Validator CDI
+
+******************************* Study Links ****************************
+(Architecture)
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/architecture.html
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#architecture
+
+(Configuration)
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/session-configuration.html
+https://www.tutorialspoint.com/hibernate/hibernate_configuration.htm
+
+(Mapping Files, XML Mapping    <classname>.hbm.xml)    use Annotation, don’t use this
+https://www.tutorialspoint.com/hibernate/hibernate_mapping_files.htm
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/xml.html
+
+---------------------------------------- 25 Mapping annotations----------------------------------------
+(Annotations)
+https://www.tutorialspoint.com/hibernate/hibernate_annotations.htm
+(Hibernate annotations)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#annotations-hibernate
+https://docs.hibernate.org/orm/5.4/userguide/html_single/#annotations-jpa
+
+---------------------------------------- 2 Domain Model ----------------------------
+(Persistent Classes, Entity)
+https://www.tutorialspoint.com/hibernate/hibernate_persistent_classes.htm
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/persistent-classes.html
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#pc
+(Persist)
+https://howtodoinjava.com/hibernate/hibernate-insert-query-tutorial/
+(Persistence LifeCycle States)
+https://howtodoinjava.com/hibernate/hibernate-entity-persistence-lifecycle-states/
+
+(Mapping Types)
+https://www.tutorialspoint.com/hibernate/hibernate_mapping_types.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#mapping-types
+
+(Basic Types) 
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#basic
+(BLOB)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#basic-lob
+https://howtodoinjava.com/hibernate/hibernate-example-of-insertselect-blob-from-database/
+
+Mappings, O/R Mappings ***
+https://www.tutorialspoint.com/hibernate/hibernate_or_mappings.htm
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/mapping.html
+(Collections Mappings)  *
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/collections.html
+       (Set Mappings)
+       https://www.tutorialspoint.com/hibernate/hibernate_set_mapping.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections-set
+       (SortedSet Mappings)
+       https://www.tutorialspoint.com/hibernate/hibernate_sortedset_mapping.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections-sorted-set
+       (List Mappings)
+       https://www.tutorialspoint.com/hibernate/hibernate_list_mapping.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections-list
+       (Bag Mappings)
+       https://www.tutorialspoint.com/hibernate/hibernate_bag_mapping.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections-bag
+       (Map Mappings)
+       https://www.tutorialspoint.com/hibernate/hibernate_map_mapping.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections-map
+        (SortedMap Mappings)
+       https://www.tutorialspoint.com/hibernate/hibernate_sortedmap_mapping.htm
+        (Arrays)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections-array
+(Association Mappings)
+https://howtodoinjava.com/hibernate/how-to-define-association-mappings-between-hibernate-entities/
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#associations
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/associations.html
+       (One-to-One)
+       https://www.tutorialspoint.com/hibernate/hibernate_one_to_one_mapping.htm
+       (One-to-Many)
+       https://www.tutorialspoint.com/hibernate/hibernate_one_to_many_mapping.htm
+       (Many-to-One)
+       https://www.tutorialspoint.com/hibernate/hibernate_many_to_one_mapping.htm
+       (Many-to-Many)
+       https://www.tutorialspoint.com/hibernate/hibernate_many_to_many_mapping.htm
+       (Not Found)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#associations-not-found
+        (Any)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#associations-any
+          (JoinFormula)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#associations-JoinFormula
+          (JoinColumnOrFormula)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#associations-JoinColumnOrFormula
+(Component Mappings) *
+       https://www.tutorialspoint.com/hibernate/hibernate_component_mappings.htm
+       https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/components.html
+(Inheritance mapping) *
+       https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/inheritance.html
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#entity-inheritance
+
+
+---------------------------------------- 5 Persistence Context ----------------------------
+(Entities Equality)
+https://howtodoinjava.com/hibernate/hibernate-entities-equality-and-identity/
+(Get/ Obtain Entity Reference)
+https://howtodoinjava.com/hibernate/hibernate-4-example-to-get-entity-reference-for-lazy-loading/
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#pc-get-reference
+(Merging and Refreshing Entities)
+https://howtodoinjava.com/hibernate/merging-and-refreshing-hibernate-entities/
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#pc-merge
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#pc-refresh
+
+(Filtering data)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#pc-filtering
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/filters.html
+https://docs.jboss.org/hibernate/core/3.6/reference/en-US/html/filters.html
+https://docs.jboss.org/hibernate/orm/4.2/manual/en-US/html/ch19.html
+@FilterDef
+https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/FilterDefs.html
+@Filters
+https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/Filter.html
+
+
+---------------------------------------- 3 Bootstrap ----------------------------------------
+(Native Bootstrap)   
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#bootstrap-native
+Three ways:
+********** Building the ServiceRegistry ***********
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#bootstrap-native-registry
+
+(BootstrapServiceRegistry)
+https://docs.jboss.org/hibernate/orm/4.1/javadocs/org/hibernate/service/BootstrapServiceRegistry.html
+
+********** Building the Metadata***********
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#bootstrap-native-metadata
+(ServiceRegistry)
+https://docs.jboss.org/hibernate/orm/4.3/javadocs/org/hibernate/service/ServiceRegistry.html
+(StandardServiceRegistryBuilder)
+https://docs.jboss.org/hibernate/orm/4.3/javadocs/org/hibernate/boot/registry/StandardServiceRegistryBuilder.html
+(MetadataSources)
+https://docs.jboss.org/hibernate/orm/5.3/javadocs/org/hibernate/boot/MetadataSources.html
+(MetadataBuilder)
+https://docs.jboss.org/hibernate/orm/5.2/javadocs/org/hibernate/boot/MetadataBuilder.html
+(Metadata)
+https://docs.jboss.org/hibernate/orm/5.3/javadocs/org/hibernate/boot/Metadata.html  (API)
+
+********** Building the Metadata***********
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#bootstrap-native-SessionFactory
+(standardServiceRegistry)
+https://docs.jboss.org/hibernate/orm/4.3/javadocs/org/hibernate/boot/registry/StandardServiceRegistry.html
+(SessionFactory)
+https://howtodoinjava.com/hibernate/hibarnate-4-how-to-build-sessionfactory/
+https://docs.jboss.org/hibernate/orm/5.1/javadocs/org/hibernate/SessionFactory.html
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#bootstrap-native-SessionFactory
+(Session)
+https://www.tutorialspoint.com/hibernate/hibernate_sessions.htm
+https://docs.jboss.org/hibernate/orm/5.2/javadocs/org/hibernate/Session.html
+(save(), saveOrUpdate())
+https://howtodoinjava.com/hibernate/hibernate-save-and-saveorupdate/
+
+
+---------------------------------------- 15 HQL and JPQL ----------------------------------------
+(HQL)
+https://howtodoinjava.com/hibernate/complete-hibernate-query-language-hql-tutorial/
+https://www.tutorialspoint.com/hibernate/hibernate_query_language.htm
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/queryhql.html
+(Query)
+https://docs.jboss.org/hibernate/orm/5.2/javadocs/org/hibernate/Query.html
+https://docs.jboss.org/hibernate/orm/5.0/javadocs/org/hibernate/Query.html#executeUpdate--
+
+
+---------------------------------------- 16 Criteria----------------------------------------
+(Criteria Queries)
+https://howtodoinjava.com/hibernate/hibernate-criteria-queries-tutorial/
+https://www.tutorialspoint.com/hibernate/hibernate_criteria_queries.htm
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/querycriteria.html
+(Criteria)
+https://docs.jboss.org/hibernate/orm/3.5/javadocs/org/hibernate/Criteria.html
+(Restrictions)
+https://docs.jboss.org/hibernate/core/3.3/api/org/hibernate/criterion/Restrictions.html
+(ProjectionList)
+https://docs.jboss.org/hibernate/orm/4.3/javadocs/org/hibernate/criterion/ProjectionList.html
+(Projections)
+https://docs.jboss.org/hibernate/orm/3.2/api/org/hibernate/criterion/Projections.html
+(Example)
+https://docs.jboss.org/hibernate/orm/3.2/api/org/hibernate/criterion/Example.html
+
+
+---------------------------------------- 17 Native SQL Queries----------------------------------------
+(Native SQL)
+https://www.tutorialspoint.com/hibernate/hibernate_native_sql.htm
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/querysql.html\
+@NamedQueries@NamedQueries
+https://howtodoinjava.com/hibernate/hibernate-named-query-tutorial/
+https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa-namedqueries
+https://docs.oracle.com/javaee/7/api/javax/persistence/NamedQueries.html
+https://docs.oracle.com/javaee/7/api/javax/persistence/NamedQuery.html
+@NamedNativeQueries   @NamedNativeQuery
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#sql-named-queries
+
+---------------------------------------- 13 Caching----------------------------------------
+(Caching)
+https://www.tutorialspoint.com/hibernate/hibernate_caching.htm
+https://docs.jboss.org/hibernate/core/4.0/devguide/en-US/html/ch06.html
+https://docs.jboss.org/hibernate/orm/5.1/userguide/html_single/chapters/caching/Caching.html
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#caching
+(First Level Cache)
+https://howtodoinjava.com/hibernate/understanding-hibernate-first-level-cache-with-example/
+(Second Level Cache)
+https://howtodoinjava.com/hibernate/understanding-hibernate-first-level-cache-with-example/
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#caching-mappings-inheritance
+(Second Level Cache concurrency strategies)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#best-practices-caching
+(CacheConcurrencyStrategy API)
+https://docs.jboss.org/hibernate/orm/4.3/javadocs/org/hibernate/annotations/CacheConcurrencyStrategy.html
+(Second-level Cache Provider) 
+https://orangeslate.com/2009/06/09/list-of-cache-providers-in-hibernate-and-their-concurrency-support-details/  (has comparisons of the 4 cache provider)
+https://docs.jboss.org/hibernate/core/4.0/devguide/en-US/html/ch06.html
+     (EhCache)
+https://howtodoinjava.com/hibernate/hibernate-ehcache-configuration-tutorial/
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#caching-provider-ehcache
+     (OSCache)
+https://howtodoinjava.com/hibernate/hibernate-oscache-configuration-example-tutorial/
+     (SwarmCache)
+http://swarmcache.sourceforge.net/
+http://swarmcache.sourceforge.net/tutorial.html
+https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/cache/SwarmCache.html
+https://docs.jboss.org/hibernate/orm/3.2/api/org/hibernate/cache/SwarmCacheProvider.html
+     (JBoss Cache/ JBoss TreeCache)
+https://docs.jboss.org/jbossclustering/cluster_guide/5.1/html/jbosscache.chapt.html
+
+
+(Entity cache)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#caching-entity
+
+(Collection cache)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#caching-collection
+
+(Query Cache)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#caching-query
+https://www.dineshonjava.com/hibernate/using-query-cache-in-hibernate/
+https://thoughts-on-java.org/hibernate-tips-use-querycache-avoid-additional-queries/
+http://mrbool.com/how-to-use-hibernate-query-cache/33439
+---------------------------------------- 12 Batching ----------------------------------------
+(Batch Processing, Session Batching)
+https://www.tutorialspoint.com/hibernate/hibernate_batch_processing.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#batch-session-batch
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/batch.html
+batch insert: flush(), clear()
+batch updates:  scroll()
+StatelessSession
+https://docs.jboss.org/hibernate/orm/5.2/javadocs/org/hibernate/StatelessSession.html
+
+---------------------------------------- 14 Interceptors and events----------------------------------------
+(Interceptors and events)
+https://www.tutorialspoint.com/hibernate/hibernate_interceptors.htm
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#events
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/events.html
+extending  EmptyInterceptor interface
+
+---------------------------------------- 8 Transaction and Concurrency ----------------------------------------
+(Transactions and Concurrency)
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/transactions.html
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#transactions
+
+---------------------------------------- 26. Performance Tuning ----------------------------------------
+ (Improving performance)
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/performance.html
+https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#best-practices
+(Lazy Loading, fetch associations)
+https://howtodoinjava.com/hibernate/lazy-loading-in-hibernate/
+https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#best-practices-fetching-associations
+(JPA Cascade Types)
+https://howtodoinjava.com/hibernate/hibernate-jpa-cascade-types/
+
+
+---------------------------------------- 7 Database access----------------------------------------
+(C3P0 Connection Pool)
+https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/
+https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#database-connectionprovider-c3p0
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#configurations-c3p0
+
+(In-memory Database)
+https://howtodoinjava.com/hibernate/hibernate-4-using-in-memory-database-with-hibernate/
+
+---------------------------------------- Hibernate Validator 5.4.3.Final  Reference Guide ----------------
+https://docs.jboss.org/hibernate/validator/5.4/reference/en-US/html_single/
+(Validator)
+https://docs.jboss.org/hibernate/validator/5.4/reference/en-US/html_single/#section-group-inheritance
+https://howtodoinjava.com/hibernate/hibernate-validator-java-bean-validation/
+(Validator CDI)
+https://howtodoinjava.com/hibernate/hibernate-validator-cdi/
+https://docs.jboss.org/hibernate/validator/5.4/reference/en-US/html_single/#section-integration-with-cdi
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with objects
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/objectstate.html
+
+Toolset Guide
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/toolsetguide.html
+
+(Example)
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/example-parentchild.html
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/example-weblog.html
+https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/example-mappings.html
+

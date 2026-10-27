@@ -1,0 +1,19 @@
+Created 10/15/26
+
+https://java2ai.com/
+https://java2ai.com/docs/quick-start
+
+
+
+
+(Context Engineering/上下文工程)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/context-engineering
+
+(Human-in-the-Loop/人工介入)
+
+(Multi-agent/多智能体)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/multi-agent
+
+
+(Workflow/工作流)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/workflow

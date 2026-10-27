@@ -1,0 +1,6 @@
+Created 03/27/20
+
+https://learn.microsoft.com/en-us/azure/app-service/
+
+(multi-container app)
+https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-multi-container-app

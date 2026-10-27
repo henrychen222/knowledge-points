@@ -1,0 +1,36 @@
+Created 10/26/26 4:09PM
+
+https://docs.spring.io/spring-ai/reference/index.html
+https://www.baeldung.com/spring-ai
+
+
+(Models)
+https://docs.spring.io/spring-ai/reference/api/index.html
+   (Chat Model)
+   https://docs.spring.io/spring-ai/reference/api/chatmodel.html
+
+   https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html
+
+(Tool Calling)
+https://docs.spring.io/spring-ai/reference/api/tools.html
+
+(MCP)
+https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html
+
+(RAG)
+https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html
+
+(Vector Databases)
+https://docs.spring.io/spring-ai/reference/api/vectordbs.html
+    (Chroma)
+    https://docs.spring.io/spring-ai/reference/api/vectordbs/chroma.html
+    (Milvus)
+    https://docs.spring.io/spring-ai/reference/api/vectordbs/milvus.html
+    (PGvector)
+    https://docs.spring.io/spring-ai/reference/api/vectordbs/pgvector.html
+    (Neo4j)
+    https://docs.spring.io/spring-ai/reference/api/vectordbs/neo4j.html
+    (Qdrant)
+    https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html
+    (Redis)
+    https://docs.spring.io/spring-ai/reference/api/vectordbs/redis.html

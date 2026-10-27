@@ -1,0 +1,7 @@
+Created 01/26/2020
+
+https://docs.oracle.com/javase/tutorial/jdbc/index.html
+  https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html
+  https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html
+https://www.tutorialspoint.com/jdbc/index.htm
+https://www.baeldung.com/java-jdbc

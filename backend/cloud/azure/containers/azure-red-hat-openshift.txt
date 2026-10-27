@@ -1,0 +1,6 @@
+Created 03/27/20
+
+https://learn.microsoft.com/en-us/azure/openshift/
+
+(Create an Azure Red Hat OpenShift with standard architecture cluster)
+https://docs.microsoft.com/en-us/azure/openshift/tutorial-create-cluster

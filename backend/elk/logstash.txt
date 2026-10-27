@@ -1,0 +1,5 @@
+Created 07/17/2019
+
+https://www.tutorialspoint.com/logstash/index.htm
+https://www.elastic.co/guide/en/logstash/index.html
+https://www.elastic.co/guide/en/logstash/current/index.html

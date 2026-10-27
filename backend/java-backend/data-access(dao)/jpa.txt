@@ -1,0 +1,54 @@
+Created 06/12/2019
+
+https://www.tutorialspoint.com/jpa
+
+
+(JPA annotations)
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa
+
+(Architecture)
+https://www.tutorialspoint.com/jpa/jpa_architecture.htm
+
+(ORM Components)
+https://www.tutorialspoint.com/jpa/jpa_orm_components.htm
+
+(Entity Managers)
+https://www.tutorialspoint.com/jpa/jpa_entity_managers.htm
+
+(Criteria API)
+https://www.tutorialspoint.com/jpa/jpa_criteria_api.htm
+
+(JPQL)
+https://www.tutorialspoint.com/jpa/jpa_jpql.htm
+   (Scalar Function)
+   https://www.tutorialspoint.com/jpa/jpa_scaler_function_example.htm
+   (Aggregate Function)
+   https://www.tutorialspoint.com/jpa/jpa_aggregate_function_example.htm
+   (Between Keyword)
+   https://www.tutorialspoint.com/jpa/jpa_between_example.htm
+   (Like Keyword)
+   https://www.tutorialspoint.com/jpa/jpa_like_example.htm
+   (Order By Clause)
+   https://www.tutorialspoint.com/jpa/jpa_order_by_example.htm
+   (Named Query)
+   https://www.tutorialspoint.com/jpa/jpa_named_query.htm
+
+(Advanced Mappings)
+https://www.tutorialspoint.com/jpa/jpa_advanced_mappings.htm
+    (Single Table Strategy)
+    https://www.tutorialspoint.com/jpa/jpa_single_table_strategy.htm
+    (Joined Table Strategy)
+    https://www.tutorialspoint.com/jpa/jpa_joined_table_strategy.
+    (Table Per Class Strategy)
+    https://www.tutorialspoint.com/jpa/jpa_table_per_class_strategy.htm
+
+(Entity Relationships)
+https://www.tutorialspoint.com/jpa/jpa_entity_relationships.htm
+    (@ManyToOne Relationships)
+    https://www.tutorialspoint.com/jpa/jpa_manytoone_relationships.htm
+    (@OneToMany Relationships)
+    https://www.tutorialspoint.com/jpa/jpa_onetomany_relationships.htm
+    (@OneToOne Relationships)
+    https://www.tutorialspoint.com/jpa/jpa_onetoone_relationships.htm
+    (@ManyToMany Relationships)
+    https://www.tutorialspoint.com/jpa/jpa_manytomany_relationships.htm
