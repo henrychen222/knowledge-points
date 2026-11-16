@@ -1,0 +1,6 @@
+Created 06/29/19
+
+https://www.sourcetreeapp.com/
+https://confluence.atlassian.com/get-started-with-sourcetree
+https://github.com/GSoft-SharePoint/Dynamite/wiki/Getting-started-with-SourceTree,-Git-and-git-flow
+https://rancoud.com/sourcetree-git-use/

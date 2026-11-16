@@ -1,0 +1,4 @@
+Created 08/10/19
+
+https://www.baeldung.com/retrofit
+https://www.journaldev.com/13639/retrofit-android-example-tutorial

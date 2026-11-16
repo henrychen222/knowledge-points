@@ -1,0 +1,4 @@
+Created 11/02/26 10:17AM
+
+https://github.com/agentscope-ai/agentscope-java
+https://java.agentscope.io/v2/en/docs/quickstart

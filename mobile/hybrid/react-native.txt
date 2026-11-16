@@ -1,0 +1,10 @@
+Created 03/09/20
+
+https://reactnative.dev/
+https://reactnative.dev/docs/getting-started  (study)
+https://www.tutorialspoint.com/react_native/index.htm
+
+
+(react native android example)
+https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript  (02/15/20) afternoon
+https://reactnativeexample.com/

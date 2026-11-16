@@ -1,0 +1,11 @@
+Created 01/11/20
+
+http://tdesell.cs.und.edu/cs532.php
+
+https://docs.nvidia.com/
+https://docs.nvidia.com/cuda/index.html
+https://docs.nvidia.com/cuda-libraries/index.html
+https://developer.nvidia.com/cuda-toolkit-archive
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+  
+

@@ -1,0 +1,171 @@
+Created 07/01/19
+
+https://www.atlassian.com/agile/tutorials
+https://www.tutorialspoint.com/jira/index.htm
+https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html
+
+
+******************************* JIRA Dashboard ********************************
+(Dashboard)
+https://www.tutorialspoint.com/jira/jira_dashboard.htm
+(JIRA page/ JIRA dashboard)
+https://www.atlassian.com/software/jira
+https://www.google.com/search?client=firefox-b-1-d&biw=1440&bih=764&tbm=isch&sa=1&ei=1cgUXcuYCszH_QappJD4Dw&q=jira+dashboard&oq=jira+dashboard&gs_l=img.3...0.0..1987743...0.0..0.0.0.......0......gws-wiz-img.NncsNMDxJFg
+Navigation bar
+    Dashboard
+    Projects
+    Issues
+    Boards
+    Create
+System DashBoard
+    Introduction
+    Assigned to Me (displays Issues list assigned to users)
+    Activity Stream (Activities done by the users)
+
+******************************* JIRA Issues ********************************
+(Project)
+https://www.tutorialspoint.com/jira/jira_project.htm
+a collection of issues
+create a new project
+
+(Issues)
+https://www.tutorialspoint.com/jira/jira_issues.htm
+used to track all the tasks.
+An issue helps to track all works that underlie in a project
+
+(Workflow)
+https://www.tutorialspoint.com/jira/jira_workflow.htm
+used to track the lifecycle of an Issue.
+Open Issue
+In Progress Issue
+Resolved Issue
+Reopened Issue
+Close Issue
+
+(Issue Types)
+https://www.tutorialspoint.com/jira/jira_issue_types.htm
+Sub-Task, Bug, Epic, Improvement, New Feature, Story, Task
+
+(Screens)
+https://www.tutorialspoint.com/jira/jira_screens.htm
+
+(Issue Creation)
+https://www.tutorialspoint.com/jira/jira_issue_creation.htm
+Configure fields: 
+    Priority: Issue creator can set the priority to resolve the issue as High, Medium, Low, and Lowest.
+    Labels: It is similar to Tag; it helps in filtering out specific types of issues
+    Linked Issue: It links other issues that are either dependent on this issue or this issue is dependent on them
+    Issue: User can link the issue by the Typing ID or summary of those that are related to the linked issue field
+    Assignee: The person who is responsible to fix this issue
+    Epic Link: An Issue creator can provide an epic link, if the issue belongs to any of those
+    Sprint: The user can define in which sprint, this issue belongs to, when this issue should be addressed.
+
+(Clone an Issue)
+https://www.tutorialspoint.com/jira/jira_clone_an_issue.htm
+
+(Create a Subtask)
+https://www.tutorialspoint.com/jira/jira_create_subtask.htm
+An issue can be completed by performing many tasks with different persons like Dev, QA, UAT, Business, Support, etc. To track the progress in each department, sub-tasks are created in an issue and assigned to the concern person. Once all the sub-tasks are resolved, the issue can be marked as completed.
+Subtask features:
+All subtasks are an essential part of their parent issue.
+All subtasks are visible on the main screen of the parent issue.
+Subtasks always belong to the same project as their parent issue.
+Subtask has all fields that are present in the standard issue.
+Subtasks cannot have a subtask of their own.
+
+(Convert Issue To Subtask)
+https://www.tutorialspoint.com/jira/jira_convert_issue_to_subtask.htm
+
+(Convert Subtask to Issue)
+https://www.tutorialspoint.com/jira/jira_convert_subtask_to_issue.htm
+
+(Create Issue using CSV)
+https://www.tutorialspoint.com/jira/jira_create_issue_using_csv.htm
+
+(Edit an Issue)
+https://www.tutorialspoint.com/jira/jira_edit_an_issue.htm
+
+(Email an Issue)
+https://www.tutorialspoint.com/jira/jira_email_an_issue.htm
+By share an issue and
+By mention these users in issue’s Description or Comment field
+(Label an Issue)
+https://www.tutorialspoint.com/jira/jira_label_an_issue.htm
+
+(Linking Issues)
+https://www.tutorialspoint.com/jira/jira_linking_issues.htm
+
+(Move an Issue)
+https://www.tutorialspoint.com/jira/jira_move_an_issue.htm
+move an issue from one project to another project
+
+(View/Change History)
+https://www.tutorialspoint.com/jira/jira_view_change_history.htm
+History: the record of all the activities performed on issues.
+
+(Watch and Vote on Issue)
+https://www.tutorialspoint.com/jira/jira_watch_and_vote_on_issue.htm
+Vote: 
+    provide the opinion on the preference for that issue, whether it is resolved or completed.
+Watch: 
+    allows users/stakeholders to keep an eye on the issue, whenever there is any update or changes in that issue. 
+    If there is any the issue, it sends notification/emails to those who are listed as watchers for that specific issue.
+
+(Search)
+https://www.tutorialspoint.com/jira/jira_search.htm
+Basic Search
+Quick Search
+
+(Advanced Search) ------ Basic Search
+https://www.tutorialspoint.com/jira/jira_advanced_search.htm
+
+
+******************************* JIRA Reports ********************************
+(Reports)
+https://www.tutorialspoint.com/jira/jira_reports.htm
+Project → choose Specific project → Click on the Reports icon on the left side of the page → 
+clicks on Switch report
+Type of Reports:
+    Agile
+        Burn down Chart
+        Sprint Chart
+        Velocity Chart
+        Cumulative Flow Diagram
+        Version Report
+        Epic Report
+        Control Chart
+        Epic Burn Down
+        Release Burn Down
+    Issue Analysis
+        Average Age Report
+        Created Vs Resolved Issue Report
+        Pie chart Report
+        Recently Created Issue Report
+        Resolution Time Report
+        Single Level Group by Report
+        Time since Issues Report
+    Forecast & Management
+        Time Tracking Report
+        User Workload Report
+        Version Workload Report
+    Others
+(Workload Pie Chart)
+https://www.tutorialspoint.com/jira/jira_workload_pie_chart.htm
+(Created vs Resolved Issues)
+https://www.tutorialspoint.com/jira/jira_created_vs_resolved_issues.htm
+(Burndown Chart)
+https://www.tutorialspoint.com/jira/jira_burndown_chart.htm
+
+
+
+(Scrum JIRA)
+https://www.atlassian.com/agile/tutorials/how-to-do-scrum-with-jira-software (read carefully)
+https://www.atlassian.com/agile/tutorials/how-to-do-advanced-scrum-practices-with-jira-software
+(Sprints JIRA)
+https://www.atlassian.com/agile/tutorials/sprints
+https://confluence.atlassian.com/jirasoftwarecloud/running-sprints-in-a-scrum-project-764478111.html?_ga=2.8465077.1447125246.1561565350-1807073833.1559072407
+(Agile board JIRA)
+https://www.atlassian.com/agile/tutorials/creating-your-agile-board
+(Kanban JIRA)
+https://www.atlassian.com/agile/tutorials/how-to-do-kanban-with-jira-software
+

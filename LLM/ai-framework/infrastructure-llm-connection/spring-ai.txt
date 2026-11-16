@@ -2,6 +2,15 @@ Created 10/26/26 4:09PM
 
 https://docs.spring.io/spring-ai/reference/index.html
 https://www.baeldung.com/spring-ai
+https://www.baeldung.com/spring-ai-building-effective-agents
+
+(黑马)
+https://www.bilibili.com/video/BV1MtZnYtEB3/?spm_id_from=333.337.search-card.all.click
+https://www.bilibili.com/video/BV1MFokBkEzC/?spm_id_from=333.337.search-card.all.click
+
+(尚硅谷)
+https://www.bilibili.com/video/BV1pvWGznEqh/?spm_id_from=333.337.search-card.all.click
+    
 
 
 (Models)
@@ -34,3 +43,9 @@ https://docs.spring.io/spring-ai/reference/api/vectordbs.html
     https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html
     (Redis)
     https://docs.spring.io/spring-ai/reference/api/vectordbs/redis.html
+
+
+
+(Prompt Engineering)
+https://docs.spring.io/spring-ai/reference/api/prompt.html
+https://docs.spring.io/spring-ai/reference/api/chat/prompt-engineering-patterns.html

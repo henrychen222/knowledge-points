@@ -1,0 +1,14 @@
+Created 01/11/20
+
+http://tdesell.cs.und.edu/cs532.php
+
+https://www.open-mpi.org/doc/
+https://www.open-mpi.org/doc/current/
+
+https://www.mpich.org/static/docs/latest/
+https://www.mpi-forum.org/docs/
+https://computing.llnl.gov/tutorials/mpi/
+
+
+(MPI for Python)
+https://mpi4py.readthedocs.io/en/stable/

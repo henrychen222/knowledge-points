@@ -1,0 +1,12 @@
+Created 01/11/20
+
+https://docs.opencv.org/
+https://opencv.org/releases/
+https://docs.opencv.org/5.0/
+https://docs.opencv.org/4.2.0/
+
+(Face Recognition)
+https://docs.opencv.org/5.0/tutorials_contrib/face/face_recognition/face_tutorial.html
+
+(Image Processing)
+https://docs.opencv.org/5.0/py_tutorials/py_imgproc/py_table_of_contents_imgproc.html

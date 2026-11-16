@@ -1,0 +1,15 @@
+Created 01/11/20
+ 
+https://learnopengl.com/
+https://open.gl/
+http://ogldev.org/
+http://ogldev.atspace.co.uk/
+
+https://www.khronos.org/   
+https://www.khronos.org/opengl/
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/
+
+http://www.opengl-tutorial.org/beginners-tutorials/
+http://www.cs.uccs.edu/~ssemwal/indexGLTutorial.html
+https://www.opengl.org/
+https://www.opengl.org/documentation/

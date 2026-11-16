@@ -12,6 +12,11 @@ https://docs.langchain4j.dev/tutorials/chat-memory
 (AI Services)
 https://docs.langchain4j.dev/tutorials/ai-services
 
+(Agents and Agentic AI)
+https://docs.langchain4j.dev/tutorials/agents
+  (Loop workflow)
+  https://docs.langchain4j.dev/tutorials/agents#loop-workflow
+
 (Tools (Function Calling))
 https://docs.langchain4j.dev/tutorials/tools
 

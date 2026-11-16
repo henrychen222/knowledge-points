@@ -1,0 +1,42 @@
+Created 10/15/26
+
+https://java2ai.com/
+https://java2ai.com/docs/quick-start
+https://www.bilibili.com/video/BV1aB5K6rE8K/?spm_id_from=333.337.search-card.all.click
+
+
+(Agent)
+https://java2ai.com/docs/frameworks/agent-framework/tutorials/agents
+
+(Models)
+https://java2ai.com/docs/frameworks/agent-framework/tutorials/models
+
+(Harness Engineering)
+https://blog.csdn.net/BADAO_LIUMANG_QIZHI/article/details/162640337
+https://blog.csdn.net/BADAO_LIUMANG_QIZHI/article/details/162488035
+https://jishuzhan.net/article/2072494758823555073
+
+*************************************************** 高级功能 *************************************************
+(Context Engineering/上下文工程)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/context-engineering
+
+(Human-in-the-Loop/人工介入)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/human-in-the-loop
+
+(Memory/记忆管理)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/memory
+
+(Multi-agent/多智能体)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/multi-agent
+
+(Agent Tool/智能体作为工具)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/agent-tool
+
+(Workflow/工作流)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/workflow
+
+(RAG/检索增强生成)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/rag
+
+(A2A Agent/分布式智能体)
+https://java2ai.com/docs/frameworks/agent-framework/advanced/a2a

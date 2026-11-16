@@ -1,0 +1,16 @@
+Created 03/09/20 8:35AM
+https://www.tutorialspoint.com/apache_spark/index.htm
+https://www.tutorialspoint.com/spark_sql/index.htm
+
+
+https://spark.apache.org/documentation.html
+https://spark.apache.org/docs/latest/
+
+
+https://www.baeldung.com/apache-spark
+https://www.baeldung.com/spark-dataframes
+https://www.baeldung.com/spring-cloud-data-flow-spark
+https://docs.spring.io/spring-hadoop/docs/current/reference/html/springandhadoop-spark.html
+https://www.baeldung.com/spring-boot-data-sql-and-schema-sql
+https://docs.spring.io/spring-boot/docs/2.1.x/reference/html/boot-features-sql.html
+
