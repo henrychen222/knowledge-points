@@ -1,0 +1,12 @@
+Created 09/29/23  6:17PM
+
+https://github.com/Tencent/TBase
+https://cloud.tencent.com/product/tbase
+
+
+https://github.com/Tencent/TBase/wiki
+     TBase基本使用篇
+     https://github.com/Tencent/TBase/wiki/2.-TBase%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E7%AF%87
+
+    TBase高级使用篇
+https://github.com/Tencent/TBase/wiki/3.-TBase%E9%AB%98%E7%BA%A7%E4%BD%BF%E7%94%A8%E7%AF%87

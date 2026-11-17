@@ -1,0 +1,14 @@
+Created 09/29/23 5:48PM
+
+(Presto简介)
+https://blog.csdn.net/qq_42511550/article/details/119490317  
+https://blog.csdn.net/weixin_45895096/article/details/126158494
+
+(Presto 使用)
+https://blog.csdn.net/zhi_yin/article/details/129281256
+https://www.jb51.net/article/252203.htm
+https://blog.csdn.net/luoyuan323/article/details/106937655/
+
+-----
+https://www.tutorialspoint.com/apache_presto/index.htm
+https://prestodb.io/docs/current/

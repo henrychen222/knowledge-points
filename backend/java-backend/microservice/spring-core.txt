@@ -1,0 +1,224 @@
+Created 07/18/19
+
+https://www.tutorialspoint.com/spring/index.htm
+https://howtodoinjava.com/spring-core/
+
+(IoC Containers)
+https://www.tutorialspoint.com/spring/spring_ioc_containers.htm
+https://howtodoinjava.com/spring-core/different-spring-ioc-containers/
+BeanFactory container https://www.tutorialspoint.com/spring/spring_beanfactory_container.htm
+
+(FactoryBean)
+https://howtodoinjava.com/spring-core/how-to-create-beans-using-spring-factorybean/
+ApplicationContext container https://www.tutorialspoint.com/spring/spring_applicationcontext_container.htm
+        ClassPathXmlApplicationContext
+        FileSystemXmlApplicationContext
+        WebXmlApplicationContext
+ApplicationContext used for enterprise functionality, cover all BeanFactory. Beanfactory only have simplest DI
+
+
+(Dependency Injection)
+https://www.tutorialspoint.com/spring/spring_dependency_injection.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-factory-collaborators
+https://en.wikipedia.org/wiki/Dependency_injection
+Constructor-based Dependency Injection
+https://www.tutorialspoint.com/spring/constructor_based_dependency_injection.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-constructor-injection
+Setter-based Dependency Injection
+https://www.tutorialspoint.com/spring/setter_based_dependency_injection.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-setter-injection
+
+(IoC vs DI)
+https://howtodoinjava.com/spring-core/spring-ioc-vs-di/
+
+(Bean Definition)
+https://www.tutorialspoint.com/spring/spring_bean_definition.htm
+The objects that form the backbone of your application, managed by the Spring IoC container are called beans.
+
+(Bean Scopes)
+https://www.tutorialspoint.com/spring/spring_bean_scopes.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-factory-scopes
+https://howtodoinjava.com/spring-core/spring-bean-scopes/
+      singleton: default, a single instance 
+      prototype:  have many object instances
+      request:  an HTTP request
+      session: HTTP session
+     global-session: global HTTP session
+XML bean configuration: <bean  scope= “session” />
+Java Configuration: @Scope annotation---- @Scope(“session”) 
+ 
+(Bean Life Cycle)
+https://www.tutorialspoint.com/spring/spring_bean_life_cycle.htm
+https://howtodoinjava.com/spring-core/spring-bean-life-cycle/
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-factory-lifecycle
+Initialization Callbacks:  
+   Java-Based:
+       afterPropertiesSet()               org.springframework.beans.factory.InitializingBean 
+   XML-Based:  <bean init-method = "…"/>
+   Annotation Based: @PostConstruct
+Destruction Callbacks           
+    Java-Based:        
+         destroy()                                   org.springframework.beans.factory.DisposableBean 
+    XML-Based:  <bean destroy-method= "…"/>
+    Annotation Based: @PostDestroy
+Default initialization and destroy methods:
+    XML-Based
+     <beans default-init-method = "…"  default-destroy-method = "…"> 
+              <bean/>
+              <bean/>
+     <beans>
+
+(BeanPostProcessors)
+https://www.tutorialspoint.com/spring/spring_bean_post_processors.htm
+https://howtodoinjava.com/spring-core/how-to-create-spring-bean-post-processors/
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-factory-extension-bpp
+Usage: Allows additional processing before and after the bean initialization callback method.
+             Typically used for checking the validity of bean properties or altering bean properties according to certain criteria
+How to: 
+       implement the BeanPostProcessor interface.
+       implement postProcessBeforeInitialization() and postProcessAfterInitialization() methods.
+
+(Bean Definition Inheritance)
+https://www.tutorialspoint.com/spring/spring_bean_definition_inheritance.htm
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-child-bean-definitions
+
+(Injecting Inner Beans)
+https://www.tutorialspoint.com/spring/spring_injecting_inner_beans.htm
+<bean id = "textEditor" class = "com.tutorialspoint.TextEditor">
+      <property name = "spellChecker">
+         <bean id = "spellChecker" class = "com.tutorialspoint.SpellChecker"/>
+      </property>
+ </bean>
+
+(Injecting Collection)
+https://www.tutorialspoint.com/spring/spring_injecting_collection.htm
+
+(Beans Auto-Wiring)
+https://www.tutorialspoint.com/spring/spring_beans_autowiring.htm
+https://howtodoinjava.com/spring-core/spring-beans-autowiring-concepts/
+Ways: @Autowire    <bean autowire="autodetect">
+Autowiring Modes: 
+no
+byName
+https://www.tutorialspoint.com/spring/spring_autowiring_byname.htm
+https://howtodoinjava.com/spring-core/spring-bean-autowire-byname/
+byType
+https://www.tutorialspoint.com/spring/spring_autowiring_bytype.htm
+https://howtodoinjava.com/spring-core/spring-bean-autowire-bytype/
+constructor
+https://www.tutorialspoint.com/spring/spring_autowiring_byconstructor.htm
+https://howtodoinjava.com/spring-core/spring-autowiring-by-constructor/
+autodetect
+https://howtodoinjava.com/spring-core/spring-autowire-by-autodetect/
+https://howtodoinjava.com/spring-core/spring-autowire-by-autodetect/
+https://howtodoinjava.com/spring-core/spring-autowire-by-autodetect/
+@Autowire: no need/replace <constructor-arg> and <property> elements. 
+
+(Annotation Based Configuration)
+https://www.tutorialspoint.com/spring/spring_annotation_based_configuration.htm
+@Required
+https://www.tutorialspoint.com/spring/spring_required_annotation.htm
+https://howtodoinjava.com/spring-core/spring-required-annotation-and-requiredannotationbeanpostprocessor-example/
+(“dependency-check” attribute of <bean>)
+https://www.intertech.com/Blog/spring-dependency-check-deprecated/
+https://www.mkyong.com/spring/spring-properties-dependency-checking/
+
+@Autowired-------important
+https://www.tutorialspoint.com/spring/spring_autowired_annotation.htm
+       @Autowired on Setter Methods
+       @Autowired on Properties
+       @Autowired on Constructors
+       @Autowired with (required = false) option
+
+@Qualifier
+https://www.tutorialspoint.com/spring/spring_qualifier_annotation.htm
+when you create more than one bean of the same type and want to wire only one of them with a property. 
+use the @Qualifier annotation along with @Autowired to remove the confusion by specifying which exact bean will be wired.
+
+JSR-250--- @PostConstruct, @PreDestroy, @Resource
+https://www.tutorialspoint.com/spring/spring_jsr250_annotations.htm
+
+
+(Java Based Configuration)---- use this way, don’t use xml configuration
+https://www.tutorialspoint.com/spring/spring_java_based_configuration.htm
+@Configuration	
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Configuration.html
+https://howtodoinjava.com/spring-core/spring-configuration-annotation/
+@Bean
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Bean.html
+Lifecycle Callbacks:  @Bean (initMethod = "init", destroyMethod = "cleanup" )
+@Import
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Import.html
+@Scope
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Scope.html
+
+(Task Scheduling)
+@Scheduled 
+https://howtodoinjava.com/spring-core/4-ways-to-schedule-tasks-in-spring-3-scheduled-example/
+fixedRate, FixDelay, Cron
+
+(Timer Tasks)
+https://howtodoinjava.com/spring-core/2-ways-to-execute-timer-tasks-in-spring-3/
+Definition: Timer is a utility class whichused to schedule tasks for both one time and repeated execution.
+Benefits: Through timer tasks, Spring framework provide support for executing tasks which are scheduled to get executed periodically for multiple times or even single time also.
+How: Two ways:
+(1) Configure MethodInvokingTimerTaskFactoryBean
+(2) Extend java.util.TimerTask
+
+(Event Handling)
+https://www.tutorialspoint.com/spring/event_handling_in_spring.htm
+      ContextRefreshedEvent
+      ContextStartedEvent
+      ContextStoppedEvent
+      ContextClosedEvent
+      RequestHandledEvent
+
+(Custom Events) / (Pub Sub)
+https://www.tutorialspoint.com/spring/custom_events_in_spring.htm
+https://howtodoinjava.com/spring-core/how-to-publish-and-listen-application-events-in-spring/
+ApplicationEvent
+https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ApplicationEvent.html
+ApplicationListener
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ApplicationListener.html
+ApplicationEventPublisher
+https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ApplicationEventPublisher.html
+ApplicationEventPublisherAware
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ApplicationEventPublisherAware.html
+ConfigurableApplicationContext
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ConfigurableApplicationContext.html
+Spring has inbuilt support for creaing application events, publish them and then listen to it in event handlers
+(1) the event should extend ApplicationEvent
+(2) the publisher should inject an ApplicationEventPublisher object
+(3) the listener should implement the ApplicationListener interface
+
+(Transaction Management)
+https://www.tutorialspoint.com/spring/spring_transaction_management.htm
+transactions properties: Atomicity, consistency, Isolation, Durability
+Local vs. Global Transactions
+Programmatic vs. Declarative Transaction Management
+      https://www.tutorialspoint.com/spring/programmatic_management.htm
+      https://www.tutorialspoint.com/spring/declarative_management.htm
+Spring Transaction Abstractions:
+      PlatformTransactionManager
+https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/transaction/PlatformTransactionManager.html
+
+(Logging with Log4J)
+https://www.tutorialspoint.com/spring/logging_with_log4j.htm
+
+(ResourceLoader)
+https://howtodoinjava.com/spring-core/how-to-load-external-resources-files-into-spring-context/
+Resource
+ResourceLoader, getResource()
+ResourceLoaderAware
+
+(Final static bean)  util:constant in xml
+https://howtodoinjava.com/spring-core/spring-declare-beans-from-final-static-field-references-using-util-constant/
+
+(static factory-method)  in xml
+https://howtodoinjava.com/spring-core/spring-create-beans-using-static-factory-method/
+
+(send email) JavaMailSender
+https://howtodoinjava.com/spring-core/send-email-with-spring-javamailsenderimpl-example/
+
+(version-less schema)   (.xsd)
+https://howtodoinjava.com/spring-core/do-not-specify-version-numbers-in-spring-schema-references/

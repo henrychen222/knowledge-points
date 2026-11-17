@@ -1,0 +1,7 @@
+Created 10/19/23 3:19PM
+
+https://www.tutorialspoint.com/hbase/index.htm
+https://www.geeksforgeeks.org/apache-hbase/
+
+https://docs.spring.io/spring-hadoop/docs/current/reference/html/springandhadoop-hbase.html
+https://www.baeldung.com/hbase

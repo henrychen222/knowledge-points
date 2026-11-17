@@ -1,0 +1,19 @@
+Created 09/29/19
+
+https://resteasy.github.io/
+https://resteasy.github.io/docs.html
+
+(4.3.1 Final)
+https://docs.jboss.org/resteasy/docs/4.3.1.Final/userguide/html_single/index.html
+https://docs.jboss.org/resteasy/docs/4.3.1.Final/userguide/html/index.html
+https://docs.jboss.org/resteasy/docs/4.3.1.Final/userguide/pdf/resteasy-reference-guide-en-US.pdf
+
+
+(resteasy tutorial)
+https://www.baeldung.com/resteasy-tutorial
+https://howtodoinjava.com/resteasy/
+http://www.mastertheboss.com/jboss-frameworks/resteasy/resteasy-tutorial
+https://www.journaldev.com/9189/resteasy-tutorial-eclipse-tomcat
+https://www.mkyong.com/webservices/jax-rs/resteasy-hello-world-example/
+http://zetcode.com/jaxrs/resteasycrud/
+https://www.javacodegeeks.com/2012/06/resteasy-tutorial-part-1-basics.html

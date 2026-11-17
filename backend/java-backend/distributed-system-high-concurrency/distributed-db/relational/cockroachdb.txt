@@ -1,0 +1,4 @@
+Created 09/29/23  6:17PM
+
+https://zhuanlan.zhihu.com/p/639382570 (一文读懂10 种分布式数据库)
+https://www.cockroachlabs.com/docs/

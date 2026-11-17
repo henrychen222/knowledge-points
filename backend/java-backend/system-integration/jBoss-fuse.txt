@@ -1,0 +1,41 @@
+Created 07/10/19
+
+https://www.tutorialspoint.com/jboss_fuse/what_is_fuse.htm
+
+
+(What Is Fuse)
+https://www.tutorialspoint.com/jboss_fuse/what_is_fuse.htm
+an Open source ESB solution by Redhat
+a lightweight and flexible integration platform which allows rapid integration of enterprise applications.
+
+
+(Apache Karaf)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_apache_karaf.htm
+
+(Apache Camel)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_apache_camel.htm
+
+(Camel Concepts)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_camel_concepts.htm
+
+(Apache CXF)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_apache_cxf.htm
+
+(Rest Web Services)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_rest_web_services.htm
+
+(Apache AMQ)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_apache_amq.htm
+
+(AMQ With Camel)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_amq_with_camel.htm
+
+(Fabric)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_fabric.htm
+
+(Child Container)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_child_container.htm
+
+(Issues and Solutions)
+https://www.tutorialspoint.com/jboss_fuse/jboss_fuse_issues_and_solutions.htm
+

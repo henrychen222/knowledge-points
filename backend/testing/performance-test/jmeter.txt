@@ -1,0 +1,5 @@
+Created 09/25/19
+
+https://www.tutorialspoint.com/jmeter/index.htm
+https://jmeter.apache.org/
+https://jmeter.apache.org/usermanual/index.html

@@ -1,0 +1,73 @@
+Created 07/15/19
+
+
+https://springframework.guru/spring-framework-annotations/
+https://dzone.com/articles/a-guide-to-spring-framework-annotations
+https://dzone.com/refcardz/spring-annotations  (good)
+https://www.journaldev.com/16966/spring-annotations
+
+
+************************* Spring Core *****************************
+
+************************* Spring MVC *****************************
+
+
+************************* Spring Data*****************************
+
+************************* Spring Security *****************************
+
+************************* Spring Cloud *****************************
+
+
+
+************************* Spring Boot *****************************
+https://www.javadevjournal.com/spring-boot/spring-boot-annotations/
+https://www.javaguides.net/2018/10/spring-boot-annotations.html
+https://www.baeldung.com/spring-boot-annotations
+https://docs.spring.io/spring-boot/docs/current/reference/html/
+@SpringBootApplication = @EnableAutoConfiguration+ @ComponentScan + @Configuration
+
+@SpringBootApplication
+@EnableAutoConfiguration
+@Configuration
+@ComponentScan
+
+@Autowired
+@Bean
+
+@Controller
+@RestController
+@RequestBody
+@PathVariable
+@RequestParam
+@RequestMapping (@GetMapping, @PostMapping , @PutMapping, , @DeleteMapping)
+
+
+
+@Component
+@Service
+
+@ExceptionHandler
+
+@Scheduled
+@EnableSchduling
+
+@EnableCaching
+@Cacheable
+@CachePut
+
+
+@Condition
+@ConditionalOnClass   
+@ConditionalOnMissingClass
+@ConditionalOnBean
+@ConditionalOnMissingBean
+@ConditionalOnProperty
+@ConditionalOnResource
+@ConditionalOnWebApplication
+@ConditionalOnNotWebApplication
+@ConditionalOnExpression
+@Conditional
+@ConditionalOnWebApplication 
+@ConditionalOnNotWebApplication
+@ConditionalExpression

@@ -1,0 +1,7 @@
+Created 09/23 11:00PM
+
+https://www.baeldung.com/java-zookeeper  use
+https://www.tutorialspoint.com/zookeeper/index.htm
+https://docs.spring.io/spring-cloud-zookeeper/docs/current/reference/html/
+
+https://zookeeper.apache.org/doc/r3.9.0/index.html
